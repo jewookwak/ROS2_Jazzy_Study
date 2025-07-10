@@ -1,0 +1,6 @@
+name: domain_bridge
+from_domain: 3
+to_domain: 1
+topics:
+  chatter:
+    type: std_msgs/msg/String

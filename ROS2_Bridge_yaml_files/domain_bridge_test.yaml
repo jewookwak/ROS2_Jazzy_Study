@@ -1,0 +1,9 @@
+# Bridge 3 → 1
+name: bridge_to_1
+from_domain: 3
+to_domain: 1
+topics:
+  topic_to_domain1:
+    type: std_msgs/msg/String
+
+
