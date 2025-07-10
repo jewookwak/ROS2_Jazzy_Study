@@ -1,8 +1,8 @@
 #ROS_BRIDGE STUDY  
 
-<terminal1>  
-export ROS_DOMAIN_ID=1  
-ros2 run demo_nodes_py listener --ros-args -r chatter:=/topic_to_domain1  
+<terminal1>    
+export ROS_DOMAIN_ID=1    
+ros2 run demo_nodes_py listener --ros-args -r chatter:=/topic_to_domain1    
 
 <terminal2>  
 export ROS_DOMAIN_ID=2  
