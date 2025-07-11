@@ -1,8 +1,8 @@
 #ROS_BRIDGE STUDY  
 방법 1 listener 쪽에서 토픽명 remapping<br/>
-<terminal1> 
-export ROS_DOMAIN_ID=1 
-ros2 run demo_nodes_py listener --ros-args -r chatter:=/topic_to_domain1 
+<terminal1><br/>
+export ROS_DOMAIN_ID=1<br/>
+ros2 run demo_nodes_py listener --ros-args -r chatter:=/topic_to_domain1<br/>
 
 <terminal2> 
 export ROS_DOMAIN_ID=2 
