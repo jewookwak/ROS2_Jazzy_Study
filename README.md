@@ -32,7 +32,7 @@ export ROS_DOMAIN_ID=1<br/>
 ros2 run demo_nodes_py listener<br/>
 <br/>
 <terminal2><br/>
-export ROS_DOMAIN_ID=1<br/>
+export ROS_DOMAIN_ID=2<br/>
 ros2 run demo_nodes_py listener<br/>
 <br/>
 
