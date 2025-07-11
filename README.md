@@ -25,7 +25,7 @@ export ROS_DOMAIN_ID=3 
 ros2 run my_demo_pkg talker2 
 
 
-방법 2 yaml 에서 topic명 remapping
+방법 2 yaml 에서 topic명 remapping 
 <terminal1> 
 export ROS_DOMAIN_ID=1 
 ros2 run demo_nodes_py listener
