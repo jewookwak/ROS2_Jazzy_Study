@@ -1,0 +1,14 @@
+name: send_waypoints
+topics:
+  way_points1:
+    remap: way_points
+    type: std_msgs/msg/String
+    from_domain: 3
+    to_domain: 1
+  way_points2:
+    remap: way_points
+    type: std_msgs/msg/String
+    from_domain: 3
+    to_domain: 2
+
+    
