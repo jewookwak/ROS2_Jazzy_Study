@@ -86,21 +86,31 @@ private:
             nav_msgs::msg::Path path_msg;
             path_msg.header.stamp = start_time;
             path_msg.header.frame_id = "map";
+
+            std::stringstream ss;
+            ss << "Agent " << (i + 1) << " path: ";
+
             for (size_t t = 0; t < planned_paths[i].size(); ++t) {
                 const auto& p = planned_paths[i][t];
                 geometry_msgs::msg::PoseStamped pose;
                 pose.header.frame_id = "map";
-                // 각 포즈에 "시작시각 + 3초 × timestep"을 넣는다
-                pose.header.stamp = start_time + rclcpp::Duration::from_seconds(dt * t);
+                rclcpp::Time stamp = start_time + rclcpp::Duration::from_seconds(dt * t);
+                pose.header.stamp = stamp;
                 pose.pose.position.x = msg->info.origin.position.x + (p.second + 0.5f) * msg->info.resolution;
                 pose.pose.position.y = msg->info.origin.position.y + (p.first + 0.5f) * msg->info.resolution;
                 pose.pose.position.z = 0.0;
                 pose.pose.orientation.w = 1.0;
                 path_msg.poses.push_back(pose);
+
+                // 로그 출력 문자열 형식: (x, y, t)
+                ss << "(" << p.first << "," << p.second << "," << t << ") ";
             }
+
             path_pubs_[i]->publish(path_msg);
+            RCLCPP_INFO(this->get_logger(), "%s", ss.str().c_str());
             RCLCPP_INFO(this->get_logger(), "Publishing /waypoints%ld: %ld poses", i+1, path_msg.poses.size());
         }
+
     }
 
     // 클래스 멤버

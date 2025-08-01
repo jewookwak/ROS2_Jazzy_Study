@@ -2,44 +2,37 @@
 
 #include <vector>
 #include <utility>
+#include <queue>
+#include <unordered_map>
+#include <string>
+#include "types.hpp"
 
-#include "rclcpp/rclcpp.hpp"
-#include "geometry_msgs/msg/pose_stamped.hpp"
-#include "nav_msgs/msg/map_meta_data.hpp"
-
-using Position = std::pair<int, int>;
-
-struct Constraint {
-    int agent;
-    int timestep;
-    std::vector<Position> loc;
-};
-
-struct Node {
-    Position pos;
-    int g_val;
-    int h_val;
-    int timestep;
-    Node* parent;
-
-    int f_val() const { return g_val + h_val; }
-};
+// Position, Constraint, Node 등은 types.hpp에 정의되어 있다고 가정합니다.
 
 class AStarPlanner {
 public:
-    AStarPlanner(const std::vector<std::vector<bool>>& map);
+    AStarPlanner(const std::vector<std::vector<bool>>& map); // 선언만!
 
-    std::vector<Position> findPath(const Position& start,
-                                   const Position& goal,
-                                   const std::vector<std::vector<int>>& heuristics,
-                                   int agent_id,
-                                   const std::vector<Constraint>& constraints);
+    bool isConstrained(
+        const Position& curr,
+        const Position& next,
+        int timestep,
+        int agent,
+        const std::vector<Constraint>& constraints
+    ) const;
 
+    // heuristics: 각 위치에 대한 휴리스틱 맵 [y][x]
+    // agent_id: 이 에이전트의 번호
+    // constraints: (다중 에이전트 MAPF용) 제약조건
+    std::vector<Position> findPath(
+        const Position& start,
+        const Position& goal,
+        const std::vector<std::vector<int>>& heuristics,
+        int agent_id,
+        const std::vector<Constraint>& constraints
+    );
 
 private:
     std::vector<std::vector<bool>> map_;
     std::vector<Position> directions_;
-
-    bool isConstrained(const Position& curr, const Position& next, int timestep, int agent,
-                       const std::vector<Constraint>& constraints) const;
 };
