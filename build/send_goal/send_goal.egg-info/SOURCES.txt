@@ -1,4 +1,3 @@
-LICENSE
 package.xml
 setup.cfg
 setup.py
@@ -14,6 +13,10 @@ send_goal/FollowWaypointsClient.py
 send_goal/__init__.py
 send_goal/python_node.py
 send_goal/simple_nav_goal.py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+send_goal.egg-info/PKG-INFO
+send_goal.egg-info/SOURCES.txt
+send_goal.egg-info/dependency_links.txt
+send_goal.egg-info/entry_points.txt
+send_goal.egg-info/requires.txt
+send_goal.egg-info/top_level.txt
+send_goal.egg-info/zip-safe

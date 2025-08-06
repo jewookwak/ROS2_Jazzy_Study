@@ -1,2 +1,1 @@
-source;share/mapf_planner/environment/ament_prefix_path.sh
-source;share/mapf_planner/environment/path.sh
+/home/addinnedu/ROS2_Jazzy_Study/build/mapf_planner/ament_cmake_environment_hooks/local_setup.dsv

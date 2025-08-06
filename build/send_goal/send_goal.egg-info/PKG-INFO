@@ -5,4 +5,3 @@ Summary: Send FollowWaypoints action goals to Nav2
 Maintainer: jewoo
 Maintainer-email: jewoo@todo.todo
 License: Apache-2.0
-License-File: LICENSE

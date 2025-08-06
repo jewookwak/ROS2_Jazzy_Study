@@ -82,9 +82,9 @@ public:
         const std::vector<Position>& starts,
         const std::vector<Position>& goals,
         bool use_disjoint_splitting = true,
-        const std::vector<Constraint>& initial_constraints
+        const std::vector<Constraint>& initial_constraints = {}
     );
-    
+
     // 맵 업데이트
     void updateMap(const std::vector<std::vector<bool>>& new_map);
     

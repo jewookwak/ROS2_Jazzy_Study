@@ -1,0 +1,18 @@
+[1.622s] Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/build --no-deps symlink_data
+[1.964s] running develop
+[2.197s] running egg_info
+[2.219s] writing my_demo_pkg.egg-info/PKG-INFO
+[2.220s] writing dependency_links to my_demo_pkg.egg-info/dependency_links.txt
+[2.220s] writing entry points to my_demo_pkg.egg-info/entry_points.txt
+[2.220s] writing requirements to my_demo_pkg.egg-info/requires.txt
+[2.220s] writing top-level names to my_demo_pkg.egg-info/top_level.txt
+[2.267s] reading manifest file 'my_demo_pkg.egg-info/SOURCES.txt'
+[2.268s] writing manifest file 'my_demo_pkg.egg-info/SOURCES.txt'
+[2.292s] running build_ext
+[2.292s] Creating /home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/python3.12/site-packages/my-demo-pkg.egg-link (link to .)
+[2.293s] Installing talker1 script to /home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/my_demo_pkg
+[2.293s] Installing talker2 script to /home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/my_demo_pkg
+[2.293s] 
+[2.294s] Installed /home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg
+[2.294s] running symlink_data
+[2.365s] Invoked command in '/home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/build --no-deps symlink_data

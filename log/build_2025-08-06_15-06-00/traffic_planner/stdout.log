@@ -1,0 +1,29 @@
+[ 33%] Built target traffic_planner_lib
+[ 50%] [32mBuilding CXX object CMakeFiles/traffic_planner_node_lib.dir/src/TrafficPlannerNode.cpp.o[0m
+[ 66%] [32m[1mLinking CXX static library libtraffic_planner_node_lib.a[0m
+[ 66%] Built target traffic_planner_node_lib
+[ 83%] [32m[1mLinking CXX executable traffic_path_planner[0m
+[100%] Built target traffic_path_planner
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/lib/traffic_planner/traffic_path_planner
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/lib/traffic_planner/libtraffic_planner_lib.a
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/lib/traffic_planner/libtraffic_planner_node_lib.a
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/include//traffic_planner/TrafficPlanner.hpp
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/include//traffic_planner/TrafficPlannerNode.hpp
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/launch//traffic_planner.launch.py
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/ament_index/resource_index/package_run_dependencies/traffic_planner
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/ament_index/resource_index/parent_prefix_path/traffic_planner
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/environment/path.sh
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/environment/path.dsv
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/local_setup.bash
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/local_setup.sh
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/local_setup.zsh
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/local_setup.dsv
+-- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/package.dsv
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/ament_index/resource_index/packages/traffic_planner
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/cmake/traffic_plannerConfig.cmake
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/cmake/traffic_plannerConfig-version.cmake
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/package.xml

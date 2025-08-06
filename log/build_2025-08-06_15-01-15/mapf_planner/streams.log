@@ -1,0 +1,42 @@
+[0.227s] Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/mapf_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/addinnedu/ROS2_Jazzy_Study/build/mapf_planner -- -j16 -l16
+[0.808s] [ 21%] Built target tracked_path_publisher
+[0.809s] [ 21%] Built target grid_map_publisher
+[0.809s] [ 25%] Built target cbs_planner_node_test2
+[0.809s] [ 43%] Built target cbs_planner_node_pose_pub
+[0.809s] [ 43%] Built target waypoint_follower
+[0.809s] [ 62%] Built target prioritized_planner_node
+[0.809s] [ 65%] Built target cbs_planner_pose_publisher
+[0.809s] [ 78%] Built target cbs_planner_node
+[0.809s] [ 87%] Built target astar_node
+[0.809s] [100%] Built target cbs_planner_node_test
+[0.809s] Invoked command in '/home/addinnedu/ROS2_Jazzy_Study/build/mapf_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/addinnedu/ROS2_Jazzy_Study/build/mapf_planner -- -j16 -l16
+[0.820s] Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/mapf_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/addinnedu/ROS2_Jazzy_Study/build/mapf_planner
+[0.829s] -- Install configuration: ""
+[0.829s] -- Execute custom install script
+[0.829s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/lib/mapf_planner/astar_node
+[0.841s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/lib/mapf_planner/grid_map_publisher
+[0.854s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/lib/mapf_planner/prioritized_planner_node
+[0.867s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/lib/mapf_planner/cbs_planner_node
+[0.879s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/lib/mapf_planner/waypoint_follower
+[0.890s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/lib/mapf_planner/tracked_path_publisher
+[0.901s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/lib/mapf_planner/cbs_planner_node_test
+[0.911s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/lib/mapf_planner/cbs_planner_node_test2
+[0.922s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/lib/mapf_planner/cbs_planner_pose_publisher
+[0.932s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/lib/mapf_planner/cbs_planner_node_pose_pub
+[0.942s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner//launch/multi_node_launch.py
+[0.952s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/share/ament_index/resource_index/package_run_dependencies/mapf_planner
+[0.963s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/share/ament_index/resource_index/parent_prefix_path/mapf_planner
+[0.973s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/environment/ament_prefix_path.sh
+[0.983s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/environment/ament_prefix_path.dsv
+[0.993s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/environment/path.sh
+[1.007s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/environment/path.dsv
+[1.018s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/local_setup.bash
+[1.029s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/local_setup.sh
+[1.039s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/local_setup.zsh
+[1.050s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/local_setup.dsv
+[1.061s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/package.dsv
+[1.072s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/share/ament_index/resource_index/packages/mapf_planner
+[1.082s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/cmake/mapf_plannerConfig.cmake
+[1.093s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/cmake/mapf_plannerConfig-version.cmake
+[1.104s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/package.xml
+[1.117s] Invoked command in '/home/addinnedu/ROS2_Jazzy_Study/build/mapf_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/addinnedu/ROS2_Jazzy_Study/build/mapf_planner

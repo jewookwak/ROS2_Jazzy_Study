@@ -14,7 +14,15 @@ aruco_marker_pkg/aruco_detector.py
 aruco_marker_pkg/aruco_odom_publisher.py
 aruco_marker_pkg/aruco_path_tracker.py
 aruco_marker_pkg/aruco_test.py
+aruco_marker_pkg/monitoring_gui.py
 aruco_marker_pkg/monitoring_map_gui.py
 aruco_marker_pkg/multi_aruco_odom_publisher.py
 aruco_marker_pkg/pose_publisher.py
+aruco_marker_pkg.egg-info/PKG-INFO
+aruco_marker_pkg.egg-info/SOURCES.txt
+aruco_marker_pkg.egg-info/dependency_links.txt
+aruco_marker_pkg.egg-info/entry_points.txt
+aruco_marker_pkg.egg-info/requires.txt
+aruco_marker_pkg.egg-info/top_level.txt
+aruco_marker_pkg.egg-info/zip-safe
 resource/aruco_marker_pkg

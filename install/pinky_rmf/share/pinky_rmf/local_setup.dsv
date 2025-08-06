@@ -1,2 +1,1 @@
-source;share/pinky_rmf/environment/ament_prefix_path.sh
-source;share/pinky_rmf/environment/path.sh
+/home/addinnedu/ROS2_Jazzy_Study/build/pinky_rmf/ament_cmake_environment_hooks/local_setup.dsv

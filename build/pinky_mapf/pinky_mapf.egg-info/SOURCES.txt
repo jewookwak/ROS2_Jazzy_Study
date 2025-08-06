@@ -15,7 +15,11 @@ pinky_mapf/goal_point.py
 pinky_mapf/goal_point1.py
 pinky_mapf/goal_point2.py
 pinky_mapf/goal_point3.py
+pinky_mapf.egg-info/PKG-INFO
+pinky_mapf.egg-info/SOURCES.txt
+pinky_mapf.egg-info/dependency_links.txt
+pinky_mapf.egg-info/entry_points.txt
+pinky_mapf.egg-info/requires.txt
+pinky_mapf.egg-info/top_level.txt
+pinky_mapf.egg-info/zip-safe
 resource/pinky_mapf
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

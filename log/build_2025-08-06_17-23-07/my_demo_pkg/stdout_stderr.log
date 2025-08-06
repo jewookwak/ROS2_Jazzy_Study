@@ -1,0 +1,35 @@
+running develop
+Removing /home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/python3.12/site-packages/my-demo-pkg.egg-link (link to .)
+running egg_info
+writing ../../build/my_demo_pkg/my_demo_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_demo_pkg/my_demo_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/my_demo_pkg/my_demo_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/my_demo_pkg/my_demo_pkg.egg-info/requires.txt
+writing top-level names to ../../build/my_demo_pkg/my_demo_pkg.egg-info/top_level.txt
+reading manifest file '../../build/my_demo_pkg/my_demo_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_demo_pkg/my_demo_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/build
+creating /home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/build/lib
+creating /home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/build/lib/my_demo_pkg
+copying my_demo_pkg/talker2.py -> /home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/build/lib/my_demo_pkg
+copying my_demo_pkg/talker1.py -> /home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/build/lib/my_demo_pkg
+copying my_demo_pkg/__init__.py -> /home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/build/lib/my_demo_pkg
+running install
+running install_lib
+creating /home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/python3.12/site-packages/my_demo_pkg
+copying /home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/build/lib/my_demo_pkg/talker2.py -> /home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/python3.12/site-packages/my_demo_pkg
+copying /home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/build/lib/my_demo_pkg/talker1.py -> /home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/python3.12/site-packages/my_demo_pkg
+copying /home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/build/lib/my_demo_pkg/__init__.py -> /home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/python3.12/site-packages/my_demo_pkg
+byte-compiling /home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/python3.12/site-packages/my_demo_pkg/talker2.py to talker2.cpython-312.pyc
+byte-compiling /home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/python3.12/site-packages/my_demo_pkg/talker1.py to talker1.cpython-312.pyc
+byte-compiling /home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/python3.12/site-packages/my_demo_pkg/__init__.py to __init__.cpython-312.pyc
+running install_data
+copying package.xml -> /home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/share/my_demo_pkg
+running install_egg_info
+Copying ../../build/my_demo_pkg/my_demo_pkg.egg-info to /home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/python3.12/site-packages/my_demo_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing talker1 script to /home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/my_demo_pkg
+Installing talker2 script to /home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/my_demo_pkg
+writing list of installed files to '/home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/install.log'

@@ -1,0 +1,32 @@
+[1.437s] Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg/build --no-deps symlink_data
+[1.770s] running develop
+[2.086s] running egg_info
+[2.087s] creating aruco_marker_pkg.egg-info
+[2.122s] writing aruco_marker_pkg.egg-info/PKG-INFO
+[2.122s] writing dependency_links to aruco_marker_pkg.egg-info/dependency_links.txt
+[2.123s] writing entry points to aruco_marker_pkg.egg-info/entry_points.txt
+[2.123s] writing requirements to aruco_marker_pkg.egg-info/requires.txt
+[2.123s] writing top-level names to aruco_marker_pkg.egg-info/top_level.txt
+[2.124s] writing manifest file 'aruco_marker_pkg.egg-info/SOURCES.txt'
+[2.196s] reading manifest file 'aruco_marker_pkg.egg-info/SOURCES.txt'
+[2.196s] writing manifest file 'aruco_marker_pkg.egg-info/SOURCES.txt'
+[2.235s] running build_ext
+[2.236s] Creating /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/python3.12/site-packages/aruco-marker-pkg.egg-link (link to .)
+[2.237s] Installing aruco_TF_broadcaster script to /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/aruco_marker_pkg
+[2.237s] Installing aruco_odom_publisher script to /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/aruco_marker_pkg
+[2.238s] Installing aruco_path_tracker script to /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/aruco_marker_pkg
+[2.238s] Installing aruco_test script to /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/aruco_marker_pkg
+[2.238s] Installing marker_publisher_node script to /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/aruco_marker_pkg
+[2.239s] Installing monitoring_gui script to /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/aruco_marker_pkg
+[2.239s] Installing monitoring_map_gui script to /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/aruco_marker_pkg
+[2.239s] Installing multi_aruco_odom_publisher script to /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/aruco_marker_pkg
+[2.240s] Installing pose_publisher script to /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/aruco_marker_pkg
+[2.240s] 
+[2.241s] Installed /home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg
+[2.241s] running symlink_data
+[2.241s] creating /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/share/ament_index
+[2.241s] creating /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/share/ament_index/resource_index
+[2.242s] creating /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/share/ament_index/resource_index/packages
+[2.242s] symbolically linking /home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg/resource/aruco_marker_pkg -> /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/share/ament_index/resource_index/packages
+[2.242s] symbolically linking /home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg/package.xml -> /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/share/aruco_marker_pkg
+[2.334s] Invoked command in '/home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg/build --no-deps symlink_data

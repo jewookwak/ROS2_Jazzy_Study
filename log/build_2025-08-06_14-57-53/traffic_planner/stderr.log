@@ -1,0 +1,11 @@
+In file included from [01m[K/home/addinnedu/ROS2_Jazzy_Study/src/traffic_planner/src/TrafficPlanner.cpp:1[m[K:
+[01m[K/home/addinnedu/ROS2_Jazzy_Study/src/traffic_planner/include/traffic_planner/TrafficPlanner.hpp:85:40:[m[K [01;31m[Kerror: [m[Kdefault argument missing for parameter 4 of ‘[01m[Kstd::vector<std::vector<std::pair<int, int> > > TrafficPlanner::[01;32m[KplanPaths[m[K(const std::vector<std::pair<int, int> >&, const std::vector<std::pair<int, int> >&, bool, const std::vector<Constraint>&)[m[K’
+   85 | [01;31m[Ktd::vector<Constraint>& initial_constraints[m[K
+      | [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/addinnedu/ROS2_Jazzy_Study/src/traffic_planner/include/traffic_planner/TrafficPlanner.hpp:84:14:[m[K [01;36m[Knote: [m[K...following parameter 3 which has a default argument
+   84 |         [01;36m[Kbool use_disjoint_splitting = true[m[K,
+      |         [01;36m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/traffic_planner_lib.dir/build.make:76: CMakeFiles/traffic_planner_lib.dir/src/TrafficPlanner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/traffic_planner_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

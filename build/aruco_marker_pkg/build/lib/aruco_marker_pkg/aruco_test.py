@@ -323,20 +323,20 @@ class ArucoOdometryPublisher(Node):
                 self.paths[marker_id] = path
 
             # 화면 표시 - 원본 3D 카메라 좌표 표시
-            cv2.putText(frame, f"ID: {marker_id}", (cx -100, cy),
+            cv2.putText(frame, f"ID: {marker_id}", (cx -150, cy),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 128, 0), 2)
-            cv2.putText(frame, f"Raw XYZ: ({raw_x:.3f}, {raw_y:.3f}, {raw_z:.3f})", (cx -100, cy + 20),
+            cv2.putText(frame, f"Raw XYZ: ({raw_x:.3f}, {raw_y:.3f}, {raw_z:.3f})", (cx -150, cy + 20),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 128, 0), 2)
-            cv2.putText(frame, f"Yaw: {yaw:.3f}", (cx -100, cy + 40),
+            cv2.putText(frame, f"Yaw: {yaw:.3f}", (cx -150, cy + 40),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 128, 0), 2)
             
             # 속도 정보 표시 (맵핑된 좌표 기반)
             if marker_id in self.robot_states and self.robot_states[marker_id].initialized:
                 state = self.robot_states[marker_id]
                 speed = math.sqrt(state.vx**2 + state.vy**2)
-                cv2.putText(frame, f"Speed: {speed:.2f} m/s", (cx -100, cy + 60),
+                cv2.putText(frame, f"Speed: {speed:.2f} m/s", (cx -150, cy + 60),
                            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
-                cv2.putText(frame, f"Ang vel: {state.vyaw:.2f} rad/s", (cx -100, cy + 80),
+                cv2.putText(frame, f"Ang vel: {state.vyaw:.2f} rad/s", (cx -150, cy + 80),
                            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
 
             # PoseStamped 생성 및 publish (map frame 사용, 맵핑된 좌표)

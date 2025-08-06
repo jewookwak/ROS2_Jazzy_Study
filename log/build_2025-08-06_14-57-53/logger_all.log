@@ -1,0 +1,428 @@
+[0.113s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.113s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ff147ac4c50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff147ac4590>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff147ac4590>>, mixin_verb=('build',))
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.143s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/addinnedu/ROS2_Jazzy_Study'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_Bridge_yaml_files) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_Bridge_yaml_files) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_Bridge_yaml_files) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_Bridge_yaml_files) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_Bridge_yaml_files) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_Bridge_yaml_files) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_Bridge_yaml_files) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_Bridge_yaml_files) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_Bridge_yaml_files) by extension 'ros'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_Bridge_yaml_files) by extensions ['cmake', 'python']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_Bridge_yaml_files) by extension 'cmake'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_Bridge_yaml_files) by extension 'python'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_Bridge_yaml_files) by extensions ['python_setup_py']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS2_Bridge_yaml_files) by extension 'python_setup_py'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker_pkg) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker_pkg) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker_pkg) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker_pkg) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker_pkg) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker_pkg) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker_pkg) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_marker_pkg) by extension 'ros'
+[0.167s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_marker_pkg' with type 'ros.ament_python' and name 'aruco_marker_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapf_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapf_planner) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapf_planner) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapf_planner) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapf_planner) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapf_planner) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapf_planner) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapf_planner) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/mapf_planner) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mapf_planner' with type 'ros.ament_cmake' and name 'mapf_planner'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_demo_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_demo_pkg) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_demo_pkg) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_demo_pkg) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_demo_pkg) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_demo_pkg) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_demo_pkg) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_demo_pkg) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_demo_pkg) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_demo_pkg' with type 'ros.ament_python' and name 'my_demo_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_camera) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_camera) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_camera) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_camera) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_camera) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_camera) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_camera) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_camera) by extension 'ros'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_camera) by extensions ['cmake', 'python']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_camera) by extension 'cmake'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_camera) by extension 'python'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_camera) by extensions ['python_setup_py']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_camera) by extension 'python_setup_py'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_mapf) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_mapf) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_mapf) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_mapf) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_mapf) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_mapf) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_mapf) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_mapf) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_mapf) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pinky_mapf' with type 'ros.ament_python' and name 'pinky_mapf'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_rmf) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_rmf) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_rmf) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_rmf) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_rmf) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_rmf) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_rmf) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_rmf) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/pinky_rmf) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pinky_rmf' with type 'ros.ament_cmake' and name 'pinky_rmf'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/send_goal) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/send_goal) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/send_goal) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/send_goal) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/send_goal) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/send_goal) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/send_goal) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/send_goal) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/send_goal) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/send_goal' with type 'ros.ament_python' and name 'send_goal'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_planner) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_planner) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_planner) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_planner) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_planner) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_planner) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_planner) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/traffic_planner) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/traffic_planner' with type 'ros.ament_cmake' and name 'traffic_planner'
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.186s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.187s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.187s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/addinnedu/ROS2_Jazzy_Study/install/send_goal' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.187s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.187s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.187s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.187s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.187s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.187s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.187s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.187s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.187s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/addinnedu/ROS2_Jazzy_Study/install
+[0.188s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/addinnedu/Rotus_team/roscamp-repo-3/Ros_Files/install
+[0.190s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 466 installed packages in /opt/ros/jazzy
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'aruco_marker_pkg' build argument 'cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'aruco_marker_pkg' build argument 'cmake_target' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'aruco_marker_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'aruco_marker_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'aruco_marker_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'aruco_marker_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'aruco_marker_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'aruco_marker_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'aruco_marker_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.236s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_marker_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg', 'merge_install': False, 'path': '/home/addinnedu/ROS2_Jazzy_Study/src/aruco_marker_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'mapf_planner' build argument 'cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'mapf_planner' build argument 'cmake_target' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'mapf_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'mapf_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'mapf_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'mapf_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'mapf_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'mapf_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'mapf_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.237s] DEBUG:colcon.colcon_core.verb:Building package 'mapf_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/addinnedu/ROS2_Jazzy_Study/build/mapf_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner', 'merge_install': False, 'path': '/home/addinnedu/ROS2_Jazzy_Study/src/mapf_planner', 'symlink_install': True, 'test_result_base': None}
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'my_demo_pkg' build argument 'cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'my_demo_pkg' build argument 'cmake_target' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'my_demo_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'my_demo_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'my_demo_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'my_demo_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'my_demo_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'my_demo_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'my_demo_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.237s] DEBUG:colcon.colcon_core.verb:Building package 'my_demo_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg', 'merge_install': False, 'path': '/home/addinnedu/ROS2_Jazzy_Study/src/my_demo_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'pinky_mapf' build argument 'cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'pinky_mapf' build argument 'cmake_target' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'pinky_mapf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'pinky_mapf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'pinky_mapf' build argument 'cmake_clean_first' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'pinky_mapf' build argument 'cmake_force_configure' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'pinky_mapf' build argument 'ament_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'pinky_mapf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'pinky_mapf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.237s] DEBUG:colcon.colcon_core.verb:Building package 'pinky_mapf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/addinnedu/ROS2_Jazzy_Study/build/pinky_mapf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf', 'merge_install': False, 'path': '/home/addinnedu/ROS2_Jazzy_Study/src/pinky_mapf', 'symlink_install': True, 'test_result_base': None}
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'pinky_rmf' build argument 'cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'pinky_rmf' build argument 'cmake_target' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'pinky_rmf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'pinky_rmf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'pinky_rmf' build argument 'cmake_clean_first' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'pinky_rmf' build argument 'cmake_force_configure' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'pinky_rmf' build argument 'ament_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'pinky_rmf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'pinky_rmf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.237s] DEBUG:colcon.colcon_core.verb:Building package 'pinky_rmf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/addinnedu/ROS2_Jazzy_Study/build/pinky_rmf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf', 'merge_install': False, 'path': '/home/addinnedu/ROS2_Jazzy_Study/src/pinky_rmf', 'symlink_install': True, 'test_result_base': None}
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'send_goal' build argument 'cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'send_goal' build argument 'cmake_target' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'send_goal' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'send_goal' build argument 'cmake_clean_cache' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'send_goal' build argument 'cmake_clean_first' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'send_goal' build argument 'cmake_force_configure' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'send_goal' build argument 'ament_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'send_goal' build argument 'catkin_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'send_goal' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.238s] DEBUG:colcon.colcon_core.verb:Building package 'send_goal' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/addinnedu/ROS2_Jazzy_Study/build/send_goal', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/addinnedu/ROS2_Jazzy_Study/install/send_goal', 'merge_install': False, 'path': '/home/addinnedu/ROS2_Jazzy_Study/src/send_goal', 'symlink_install': True, 'test_result_base': None}
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'traffic_planner' build argument 'cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'traffic_planner' build argument 'cmake_target' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'traffic_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'traffic_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'traffic_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'traffic_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'traffic_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'traffic_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.238s] Level 5:colcon.colcon_core.verb:set package 'traffic_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.238s] DEBUG:colcon.colcon_core.verb:Building package 'traffic_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/addinnedu/ROS2_Jazzy_Study/build/traffic_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner', 'merge_install': False, 'path': '/home/addinnedu/ROS2_Jazzy_Study/src/traffic_planner', 'symlink_install': True, 'test_result_base': None}
+[0.238s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.239s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.239s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/addinnedu/ROS2_Jazzy_Study/src/aruco_marker_pkg' with build type 'ament_python'
+[0.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_marker_pkg', 'ament_prefix_path')
+[0.240s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/share/aruco_marker_pkg/hook/ament_prefix_path.ps1'
+[0.241s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/share/aruco_marker_pkg/hook/ament_prefix_path.dsv'
+[0.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/share/aruco_marker_pkg/hook/ament_prefix_path.sh'
+[0.242s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.242s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.246s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/addinnedu/ROS2_Jazzy_Study/src/mapf_planner' with build type 'ament_cmake'
+[0.246s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/addinnedu/ROS2_Jazzy_Study/src/mapf_planner'
+[0.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.246s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.249s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/addinnedu/ROS2_Jazzy_Study/src/my_demo_pkg' with build type 'ament_python'
+[0.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_demo_pkg', 'ament_prefix_path')
+[0.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/share/my_demo_pkg/hook/ament_prefix_path.ps1'
+[0.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/share/my_demo_pkg/hook/ament_prefix_path.dsv'
+[0.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/share/my_demo_pkg/hook/ament_prefix_path.sh'
+[0.251s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.251s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.254s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/addinnedu/ROS2_Jazzy_Study/src/pinky_mapf' with build type 'ament_python'
+[0.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('pinky_mapf', 'ament_prefix_path')
+[0.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/share/pinky_mapf/hook/ament_prefix_path.ps1'
+[0.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/share/pinky_mapf/hook/ament_prefix_path.dsv'
+[0.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/share/pinky_mapf/hook/ament_prefix_path.sh'
+[0.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.258s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/addinnedu/ROS2_Jazzy_Study/src/pinky_rmf' with build type 'ament_cmake'
+[0.259s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/addinnedu/ROS2_Jazzy_Study/src/pinky_rmf'
+[0.259s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.259s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.262s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/addinnedu/ROS2_Jazzy_Study/src/send_goal' with build type 'ament_python'
+[0.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('send_goal', 'ament_prefix_path')
+[0.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/install/send_goal/share/send_goal/hook/ament_prefix_path.ps1'
+[0.263s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinnedu/ROS2_Jazzy_Study/install/send_goal/share/send_goal/hook/ament_prefix_path.dsv'
+[0.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/install/send_goal/share/send_goal/hook/ament_prefix_path.sh'
+[0.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.267s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/addinnedu/ROS2_Jazzy_Study/src/traffic_planner' with build type 'ament_cmake'
+[0.267s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/addinnedu/ROS2_Jazzy_Study/src/traffic_planner'
+[0.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.465s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/addinnedu/ROS2_Jazzy_Study/src/aruco_marker_pkg'
+[0.465s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.465s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/mapf_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/addinnedu/ROS2_Jazzy_Study/src/mapf_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner
+[0.654s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'my_demo_pkg' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.655s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/addinnedu/ROS2_Jazzy_Study/src/my_demo_pkg'
+[0.655s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.655s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.839s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/addinnedu/ROS2_Jazzy_Study/src/pinky_mapf'
+[0.840s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.840s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/pinky_rmf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/addinnedu/ROS2_Jazzy_Study/src/pinky_rmf -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf
+[1.031s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/addinnedu/ROS2_Jazzy_Study/src/send_goal'
+[1.031s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.031s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/traffic_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/addinnedu/ROS2_Jazzy_Study/src/traffic_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner
+[1.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg/build --no-deps symlink_data
+[1.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/build --no-deps symlink_data
+[1.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/pinky_mapf': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/addinnedu/ROS2_Jazzy_Study/build/pinky_mapf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/addinnedu/ROS2_Jazzy_Study/build/pinky_mapf/build --no-deps symlink_data
+[1.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/send_goal': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/addinnedu/ROS2_Jazzy_Study/build/send_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/addinnedu/ROS2_Jazzy_Study/build/send_goal/build --no-deps symlink_data
+[2.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/addinnedu/ROS2_Jazzy_Study/build/mapf_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/addinnedu/ROS2_Jazzy_Study/src/mapf_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner
+[2.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/mapf_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/addinnedu/ROS2_Jazzy_Study/build/mapf_planner -- -j16 -l16
+[2.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_marker_pkg', 'pythonpath_develop')
+[2.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg/share/aruco_marker_pkg/hook/pythonpath_develop.ps1'
+[2.571s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg/share/aruco_marker_pkg/hook/pythonpath_develop.dsv'
+[2.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg/share/aruco_marker_pkg/hook/pythonpath_develop.sh'
+[2.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg/build --no-deps symlink_data
+[2.575s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg' for CMake module files
+[2.576s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg' for CMake config files
+[2.577s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib'
+[2.578s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/bin'
+[2.578s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/pkgconfig/aruco_marker_pkg.pc'
+[2.578s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/python3.12/site-packages'
+[2.578s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_marker_pkg', 'pythonpath')
+[2.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/share/aruco_marker_pkg/hook/pythonpath.ps1'
+[2.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/share/aruco_marker_pkg/hook/pythonpath.dsv'
+[2.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/share/aruco_marker_pkg/hook/pythonpath.sh'
+[2.580s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/bin'
+[2.580s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_marker_pkg)
+[2.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/share/aruco_marker_pkg/package.ps1'
+[2.581s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/share/aruco_marker_pkg/package.dsv'
+[2.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/share/aruco_marker_pkg/package.sh'
+[2.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/share/aruco_marker_pkg/package.bash'
+[2.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/share/aruco_marker_pkg/package.zsh'
+[2.584s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/share/colcon-core/packages/aruco_marker_pkg)
+[2.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('pinky_mapf', 'pythonpath_develop')
+[2.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/build/pinky_mapf/share/pinky_mapf/hook/pythonpath_develop.ps1'
+[2.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinnedu/ROS2_Jazzy_Study/build/pinky_mapf/share/pinky_mapf/hook/pythonpath_develop.dsv'
+[2.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/build/pinky_mapf/share/pinky_mapf/hook/pythonpath_develop.sh'
+[2.595s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf' for CMake module files
+[2.596s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf' for CMake config files
+[2.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/addinnedu/ROS2_Jazzy_Study/build/pinky_mapf' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/addinnedu/ROS2_Jazzy_Study/build/pinky_mapf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/addinnedu/ROS2_Jazzy_Study/build/pinky_mapf/build --no-deps symlink_data
+[2.599s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib'
+[2.600s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/bin'
+[2.600s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/pkgconfig/pinky_mapf.pc'
+[2.600s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages'
+[2.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('pinky_mapf', 'pythonpath')
+[2.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/share/pinky_mapf/hook/pythonpath.ps1'
+[2.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/share/pinky_mapf/hook/pythonpath.dsv'
+[2.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/share/pinky_mapf/hook/pythonpath.sh'
+[2.602s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/bin'
+[2.602s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pinky_mapf)
+[2.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/share/pinky_mapf/package.ps1'
+[2.607s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/share/pinky_mapf/package.dsv'
+[2.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/share/pinky_mapf/package.sh'
+[2.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/share/pinky_mapf/package.bash'
+[2.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/share/pinky_mapf/package.zsh'
+[2.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/share/colcon-core/packages/pinky_mapf)
+[2.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/addinnedu/ROS2_Jazzy_Study/build/pinky_rmf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/addinnedu/ROS2_Jazzy_Study/src/pinky_rmf -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf
+[2.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/pinky_rmf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/addinnedu/ROS2_Jazzy_Study/build/pinky_rmf -- -j16 -l16
+[2.633s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_demo_pkg', 'pythonpath_develop')
+[2.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/build --no-deps symlink_data
+[2.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/share/my_demo_pkg/hook/pythonpath_develop.ps1'
+[2.635s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/share/my_demo_pkg/hook/pythonpath_develop.dsv'
+[2.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/share/my_demo_pkg/hook/pythonpath_develop.sh'
+[2.636s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg' for CMake module files
+[2.637s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg' for CMake config files
+[2.637s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib'
+[2.638s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/bin'
+[2.638s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/pkgconfig/my_demo_pkg.pc'
+[2.638s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/python3.12/site-packages'
+[2.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_demo_pkg', 'pythonpath')
+[2.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/share/my_demo_pkg/hook/pythonpath.ps1'
+[2.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/share/my_demo_pkg/hook/pythonpath.dsv'
+[2.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/share/my_demo_pkg/hook/pythonpath.sh'
+[2.640s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/bin'
+[2.640s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_demo_pkg)
+[2.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/share/my_demo_pkg/package.ps1'
+[2.641s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/share/my_demo_pkg/package.dsv'
+[2.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/share/my_demo_pkg/package.sh'
+[2.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/share/my_demo_pkg/package.bash'
+[2.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/share/my_demo_pkg/package.zsh'
+[2.643s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/share/colcon-core/packages/my_demo_pkg)
+[2.897s] Level 1:colcon.colcon_core.shell:create_environment_hook('send_goal', 'pythonpath_develop')
+[2.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/build/send_goal/share/send_goal/hook/pythonpath_develop.ps1'
+[2.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinnedu/ROS2_Jazzy_Study/build/send_goal/share/send_goal/hook/pythonpath_develop.dsv'
+[2.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/build/send_goal/share/send_goal/hook/pythonpath_develop.sh'
+[2.900s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/send_goal' for CMake module files
+[2.900s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/send_goal' for CMake config files
+[2.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/addinnedu/ROS2_Jazzy_Study/build/send_goal' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/addinnedu/ROS2_Jazzy_Study/build/send_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/addinnedu/ROS2_Jazzy_Study/build/send_goal/build --no-deps symlink_data
+[2.904s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/send_goal/lib'
+[2.904s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/send_goal/bin'
+[2.904s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/send_goal/lib/pkgconfig/send_goal.pc'
+[2.904s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/send_goal/lib/python3.12/site-packages'
+[2.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('send_goal', 'pythonpath')
+[2.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/install/send_goal/share/send_goal/hook/pythonpath.ps1'
+[2.905s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/addinnedu/ROS2_Jazzy_Study/install/send_goal/share/send_goal/hook/pythonpath.dsv'
+[2.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/addinnedu/ROS2_Jazzy_Study/install/send_goal/share/send_goal/hook/pythonpath.sh'
+[2.906s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/send_goal/bin'
+[2.906s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(send_goal)
+[2.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinnedu/ROS2_Jazzy_Study/install/send_goal/share/send_goal/package.ps1'
+[2.912s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/addinnedu/ROS2_Jazzy_Study/install/send_goal/share/send_goal/package.dsv'
+[2.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinnedu/ROS2_Jazzy_Study/install/send_goal/share/send_goal/package.sh'
+[2.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinnedu/ROS2_Jazzy_Study/install/send_goal/share/send_goal/package.bash'
+[2.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinnedu/ROS2_Jazzy_Study/install/send_goal/share/send_goal/package.zsh'
+[2.914s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/addinnedu/ROS2_Jazzy_Study/install/send_goal/share/colcon-core/packages/send_goal)
+[3.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/addinnedu/ROS2_Jazzy_Study/build/traffic_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/addinnedu/ROS2_Jazzy_Study/src/traffic_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner
+[3.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/traffic_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/addinnedu/ROS2_Jazzy_Study/build/traffic_planner -- -j16 -l16
+[4.844s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(traffic_planner)
+[4.845s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner' for CMake module files
+[4.845s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner' for CMake config files
+[4.846s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/bin'
+[4.846s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/lib/pkgconfig/traffic_planner.pc'
+[4.846s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/lib/python3.12/site-packages'
+[4.846s] Level 1:colcon.colcon_core.environment:checking '/home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/bin'
+[4.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/package.ps1'
+[4.851s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/package.dsv'
+[4.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/addinnedu/ROS2_Jazzy_Study/build/traffic_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/addinnedu/ROS2_Jazzy_Study/build/traffic_planner -- -j16 -l16
+[4.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/package.sh'
+[4.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/package.bash'
+[4.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/package.zsh'
+[4.854s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/colcon-core/packages/traffic_planner)
+[14.956s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.956s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.956s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[14.956s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.966s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.966s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.966s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.977s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.978s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/addinnedu/ROS2_Jazzy_Study/install/local_setup.ps1'
+[14.979s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/addinnedu/ROS2_Jazzy_Study/install/_local_setup_util_ps1.py'
+[14.980s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/addinnedu/ROS2_Jazzy_Study/install/setup.ps1'
+[14.982s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/addinnedu/ROS2_Jazzy_Study/install/local_setup.sh'
+[14.982s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/addinnedu/ROS2_Jazzy_Study/install/_local_setup_util_sh.py'
+[14.983s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/addinnedu/ROS2_Jazzy_Study/install/setup.sh'
+[14.984s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/addinnedu/ROS2_Jazzy_Study/install/local_setup.bash'
+[14.984s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/addinnedu/ROS2_Jazzy_Study/install/setup.bash'
+[14.985s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/addinnedu/ROS2_Jazzy_Study/install/local_setup.zsh'
+[14.986s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/addinnedu/ROS2_Jazzy_Study/install/setup.zsh'

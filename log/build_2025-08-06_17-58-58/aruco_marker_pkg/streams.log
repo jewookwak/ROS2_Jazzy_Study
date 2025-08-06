@@ -1,0 +1,27 @@
+[1.433s] Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg/build --no-deps symlink_data --force
+[1.757s] running develop
+[1.965s] running egg_info
+[1.984s] writing aruco_marker_pkg.egg-info/PKG-INFO
+[1.985s] writing dependency_links to aruco_marker_pkg.egg-info/dependency_links.txt
+[1.985s] writing entry points to aruco_marker_pkg.egg-info/entry_points.txt
+[1.985s] writing requirements to aruco_marker_pkg.egg-info/requires.txt
+[1.985s] writing top-level names to aruco_marker_pkg.egg-info/top_level.txt
+[2.027s] reading manifest file 'aruco_marker_pkg.egg-info/SOURCES.txt'
+[2.027s] writing manifest file 'aruco_marker_pkg.egg-info/SOURCES.txt'
+[2.049s] running build_ext
+[2.049s] Creating /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/python3.12/site-packages/aruco-marker-pkg.egg-link (link to .)
+[2.049s] Installing aruco_TF_broadcaster script to /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/aruco_marker_pkg
+[2.050s] Installing aruco_odom_publisher script to /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/aruco_marker_pkg
+[2.050s] Installing aruco_path_tracker script to /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/aruco_marker_pkg
+[2.050s] Installing aruco_test script to /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/aruco_marker_pkg
+[2.050s] Installing marker_publisher_node script to /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/aruco_marker_pkg
+[2.050s] Installing monitoring_gui script to /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/aruco_marker_pkg
+[2.050s] Installing monitoring_map_gui script to /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/aruco_marker_pkg
+[2.050s] Installing multi_aruco_odom_publisher script to /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/aruco_marker_pkg
+[2.051s] Installing pose_publisher script to /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/aruco_marker_pkg
+[2.051s] 
+[2.051s] Installed /home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg
+[2.051s] running symlink_data
+[2.052s] symbolically linking /home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg/resource/aruco_marker_pkg -> /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/share/ament_index/resource_index/packages
+[2.052s] symbolically linking /home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg/package.xml -> /home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/share/aruco_marker_pkg
+[2.089s] Invoked command in '/home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/addinnedu/ROS2_Jazzy_Study/build/aruco_marker_pkg/build --no-deps symlink_data --force
