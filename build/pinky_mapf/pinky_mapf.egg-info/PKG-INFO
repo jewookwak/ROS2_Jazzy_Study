@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pinky-mapf
+Version: 0.0.1
+Summary: RMF client node for controlling robot via FollowWaypoints action
+Maintainer: addinnedu
+Maintainer-email: addinnedu@todo.todo
+License: Apache License 2.0

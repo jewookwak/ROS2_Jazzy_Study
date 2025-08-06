@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtraffic_planner_lib.a CMakeFiles/traffic_planner_lib.dir/src/TrafficPlanner.cpp.o
+/usr/bin/ranlib libtraffic_planner_lib.a

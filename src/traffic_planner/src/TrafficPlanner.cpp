@@ -87,7 +87,8 @@ TrafficPlanner::TrafficPlanner(const std::vector<std::vector<bool>>& map) : map_
 std::vector<std::vector<Position>> TrafficPlanner::planPaths(
     const std::vector<Position>& starts,
     const std::vector<Position>& goals,
-    bool use_disjoint_splitting
+    bool use_disjoint_splitting,
+    const std::vector<Constraint>& initial_constraints
 ) {
     if (starts.size() != goals.size()) {
         std::cerr << "시작점과 목표점의 개수가 일치하지 않습니다!" << std::endl;
@@ -101,7 +102,7 @@ std::vector<std::vector<Position>> TrafficPlanner::planPaths(
     CBSNode root;
     root.cost = 0;
     root.id = 0;
-
+    root.constraints.insert(root.constraints.end(), initial_constraints.begin(), initial_constraints.end());
     // 초기 경로 계산
     for (size_t i = 0; i < starts.size(); ++i) {
         std::vector<Constraint> empty;

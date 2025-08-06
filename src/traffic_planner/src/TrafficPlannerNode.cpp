@@ -71,10 +71,19 @@ void TrafficPlannerNode::initializeRobots() {
 void TrafficPlannerNode::planAndAssignPaths() {
     auto starts = generateStartPositions();
     auto goals = generateGoalPositions();
-    
+
+    // std::vector<Constraint> custom_constraints = {
+    //     {0, 3, { {5, 10} }},
+    //     {1, 4, { {6, 11}, {6, 12} }}
+    // };
+    std::vector<Constraint> custom_constraints = {
+        {0, 3, { {5, 10} }},
+    };
     RCLCPP_INFO(get_logger(), "🚀 Traffic-aware CBS 솔버 시작 - 로봇 %d개", num_robots_);
     
-    auto paths = planner_->planPaths(starts, goals, true);  // disjoint splitting 사용
+    // auto paths = planner_->planPaths(starts, goals, true);  // disjoint splitting 사용
+    auto paths = planner_->planPaths(starts, goals, true, custom_constraints);  // custom_constraints 추가
+
 
     if (paths.size() != static_cast<size_t>(num_robots_)) {
         RCLCPP_ERROR(get_logger(), "❌ Traffic-aware CBS 경로 생성 실패");

@@ -1,0 +1,4 @@
+[console_scripts]
+follow_waypoints_client = send_goal.FollowWaypointsClient:main
+python_node = send_goal.python_node:main
+simple_nav_goal = send_goal.simple_nav_goal:main

@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7ab772d491e4ca488935.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "traffic_planner",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "traffic_path_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traffic_path_planner-9c7067975c7f15289e82.json",
+					"name" : "traffic_path_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traffic_planner_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traffic_planner_lib-dd1cd8af9dca8eea582e.json",
+					"name" : "traffic_planner_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traffic_planner_node_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traffic_planner_node_lib-9f209e883a7f3bb55877.json",
+					"name" : "traffic_planner_node_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traffic_planner_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traffic_planner_uninstall-85763ea5d87211a15ddb.json",
+					"name" : "traffic_planner_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d36f9c91d113e20df235.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/addinnedu/ROS2_Jazzy_Study/build/traffic_planner",
+		"source" : "/home/addinnedu/ROS2_Jazzy_Study/src/traffic_planner"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

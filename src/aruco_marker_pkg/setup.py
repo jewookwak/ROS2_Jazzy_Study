@@ -28,6 +28,7 @@ setup(
             'multi_aruco_odom_publisher = aruco_marker_pkg.multi_aruco_odom_publisher:main',
             'monitoring_map_gui = aruco_marker_pkg.monitoring_map_gui:main',
             'aruco_test = aruco_marker_pkg.aruco_test:main',
+            'monitoring_gui = aruco_marker_pkg.monitoring_gui:main',
         ],
     },
 )

@@ -1,0 +1,6 @@
+[console_scripts]
+follow_waypoints_client = pinky_mapf.follow_waypoints_client:main
+goal_point = pinky_mapf.goal_point:main
+goal_point1 = pinky_mapf.goal_point1:main
+goal_point2 = pinky_mapf.goal_point2:main
+goal_point3 = pinky_mapf.goal_point3:main

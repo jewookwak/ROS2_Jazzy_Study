@@ -1,0 +1,9 @@
+[console_scripts]
+aruco_TF_broadcaster = aruco_marker_pkg.aruco_TF_broadcaster:main
+aruco_odom_publisher = aruco_marker_pkg.aruco_odom_publisher:main
+aruco_path_tracker = aruco_marker_pkg.aruco_path_tracker:main
+aruco_test = aruco_marker_pkg.aruco_test:main
+marker_publisher_node = aruco_marker_pkg.aruco_detector:main
+monitoring_map_gui = aruco_marker_pkg.monitoring_map_gui:main
+multi_aruco_odom_publisher = aruco_marker_pkg.multi_aruco_odom_publisher:main
+pose_publisher = aruco_marker_pkg.pose_publisher:main

@@ -1,0 +1,3 @@
+[console_scripts]
+talker1 = my_demo_pkg.talker1:main
+talker2 = my_demo_pkg.talker2:main

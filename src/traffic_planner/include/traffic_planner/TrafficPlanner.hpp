@@ -81,7 +81,8 @@ public:
     std::vector<std::vector<Position>> planPaths(
         const std::vector<Position>& starts,
         const std::vector<Position>& goals,
-        bool use_disjoint_splitting = true
+        bool use_disjoint_splitting = true,
+        const std::vector<Constraint>& initial_constraints
     );
     
     // 맵 업데이트
