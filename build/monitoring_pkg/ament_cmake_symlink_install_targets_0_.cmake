@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg/integrated_aruco_monitor" "TARGETS" "integrated_aruco_monitor" "DESTINATION" "lib/monitoring_pkg")

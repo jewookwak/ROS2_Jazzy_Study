@@ -5,6 +5,7 @@ aruco_path_tracker = aruco_marker_pkg.aruco_path_tracker:main
 aruco_test = aruco_marker_pkg.aruco_test:main
 marker_publisher_node = aruco_marker_pkg.aruco_detector:main
 monitoring_gui = aruco_marker_pkg.monitoring_gui:main
+monitoring_gui_matplot = aruco_marker_pkg.monitoring_gui_matplot:main
 monitoring_map_gui = aruco_marker_pkg.monitoring_map_gui:main
 multi_aruco_odom_publisher = aruco_marker_pkg.multi_aruco_odom_publisher:main
 pose_publisher = aruco_marker_pkg.pose_publisher:main

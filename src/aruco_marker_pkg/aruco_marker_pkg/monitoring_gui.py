@@ -174,10 +174,7 @@ class IntegratedRosThread(QThread):
     def setup_aruco(self):
         """ArUco 검출기 초기화"""
         try:
-            # 카메라 캘리브레이션 데이터 로드
-            # base_path = 'aruco_marker_pkg/include/'
-            # ROS2 워크스페이스 기준 경로 설정
-            import os
+            # 카메라 캘리브레이션 데이터 로드import os
             from pathlib import Path
             
             # 현재 작업 디렉토리에서 워크스페이스 루트 찾기
@@ -204,6 +201,12 @@ class IntegratedRosThread(QThread):
             dist_coeffs = np.load(str(dist_coeffs_path))
             
             self.detector = ArucoDetector(camera_matrix, dist_coeffs)
+
+            # base_path = '/home/addinnedu/monitoring_camera_ws/src/aruco_marker_pkg/include/'
+            # camera_matrix = np.load(base_path + 'camera_matrix.npy')
+            # dist_coeffs = np.load(base_path + 'dist_coeffs.npy')
+            
+            # self.detector = ArucoDetector(camera_matrix, dist_coeffs)
             
             # 카메라 초기화
             self.cap = cv2.VideoCapture("/dev/video_cam", cv2.CAP_V4L2)
@@ -486,95 +489,69 @@ class IntegratedRosThread(QThread):
             self.node.get_logger().info("Camera released")
         cv2.destroyAllWindows()
 
-# === 수정된 맵 위젯 (matplotlib 기반) ===
-class MapWidget(QWidget):  # QLabel에서 QWidget으로 변경
+# === 커스텀 맵 위젯 ===
+class MapWidget(QLabel):
     def __init__(self, custom_map):
         super().__init__()
         self.custom_map = custom_map
         self.robot_positions = {}  # {robot_id: {'x': x, 'y': y, 'yaw': yaw}}
-        
-        # matplotlib 설정
-        self.figure = Figure(figsize=(7, 4))
-        self.canvas = FigureCanvas(self.figure)
-        self.ax = self.figure.add_subplot(111)
-        
-        layout = QVBoxLayout()
-        layout.addWidget(self.canvas)
-        self.setLayout(layout)
-        
-        # 맵을 numpy로 변환
-        self.map_array = np.array(custom_map, dtype=np.uint8)
-        self.map_array = (1 - self.map_array) * 255  # 0 → 255 (white), 1 → 0 (black)
-        self.map_array = np.flipud(self.map_array)   # y축 상하반전
-        
+        self.setFixedSize(700, 400)
+        self.setStyleSheet("border: 2px solid blue;")
         self.update_map()
 
     def update_map(self):
         """맵과 로봇 위치를 그려서 업데이트"""
-        self.ax.clear()
+        # 맵 이미지 생성
+        arr = (1 - np.array(self.custom_map)) * 255
+        h, w = arr.shape
         
-        # 맵 출력: 범위 (-0.1, -0.1) ~ (2.1, 1.1)
-        extent = [-0.1, 2.1, -0.1, 1.1]
-        self.ax.imshow(self.map_array, cmap='gray', origin='lower', extent=extent)
+        # QImage 생성
+        qimg = QImage(arr.astype(np.uint8).data, w, h, w, QImage.Format_Grayscale8)
+        
+        # RGB로 변환하여 컬러 그리기 가능하게 함
+        qimg = qimg.convertToFormat(QImage.Format_RGB888)
+        
+        # QPainter로 로봇 위치 그리기
+        pixmap = QPixmap.fromImage(qimg)
+        pixmap = pixmap.scaled(self.size(), Qt.KeepAspectRatio)
+        
+        painter = QPainter(pixmap)
         
         # 로봇들 그리기
-        legend_handles = []
-        legend_labels = []
-        
         for robot_id, pos in self.robot_positions.items():
+            # 맵 좌표를 픽셀 좌표로 변환 (2m x 1m 맵을 700x400 픽셀로)
+            pixel_x = int((pos['x'] / 2.0) * pixmap.width())
+            pixel_y = int((1.0 - pos['y'] / 1.0) * pixmap.height())  # Y축 뒤집기
+            
             # 로봇 색상 (ID에 따라)
-            colors = ['red', 'blue', 'green', 'orange', 'purple', 'cyan']
+            colors = [QColor(255, 0, 0), QColor(0, 255, 0), QColor(0, 0, 255), 
+                     QColor(255, 255, 0), QColor(255, 0, 255), QColor(0, 255, 255)]
             color = colors[robot_id % len(colors)]
             
-            x, y, yaw = pos['x'], pos['y'], pos['yaw']
-            
-            # 로봇 현재 위치 (원점)
-            robot_point = self.ax.plot(x, y, 'o', color=color, markersize=10, 
-                                     markeredgecolor='black', markeredgewidth=1,
-                                     label=f'Robot {robot_id}')[0]
-            legend_handles.append(robot_point)
-            legend_labels.append(f'Robot {robot_id}')
+            # 로봇 위치 (원)
+            painter.setPen(QPen(color, 3))
+            painter.setBrush(QBrush(color))
+            painter.drawEllipse(pixel_x - 8, pixel_y - 8, 16, 16)
             
             # 방향 화살표
-            arrow_length = 0.05
-            dx = arrow_length * math.cos(yaw)
-            dy = arrow_length * math.sin(yaw)
+            arrow_length = 20
+            arrow_end_x = pixel_x + arrow_length * math.cos(pos['yaw'])
+            arrow_end_y = pixel_y - arrow_length * math.sin(pos['yaw'])  # Y축 뒤집기
             
-            self.ax.arrow(x, y, dx, dy, head_width=0.02, head_length=0.02,
-                         color=color, alpha=1.0, linewidth=2)
+            painter.setPen(QPen(color, 2))
+            painter.drawLine(pixel_x, pixel_y, int(arrow_end_x), int(arrow_end_y))
             
             # 로봇 ID 텍스트
-            self.ax.text(x + 0.05, y + 0.05, f'R{robot_id}', 
-                        color='white', fontweight='bold', fontsize=8,
-                        bbox=dict(boxstyle="round,pad=0.2", facecolor=color, alpha=0.7))
-        
-        # 축 설정
-        self.ax.set_xlim(-0.1, 2.1)
-        self.ax.set_ylim(-0.1, 1.1)
-        self.ax.set_xticks(np.arange(-0.1, 2.11, 0.1))
-        self.ax.set_yticks(np.arange(-0.1, 1.11, 0.1))
-        
-        # 격자 표시
-        self.ax.grid(True, alpha=0.3, linewidth=0.5)
-        
-        # 축 레이블
-        self.ax.set_xlabel('X (m)', fontsize=10)
-        self.ax.set_ylabel('Y (m)', fontsize=10)
-        self.ax.set_title('Robot Positions on Map', fontsize=12)
-        
-        # 범례 추가 (로봇이 있는 경우만)
-        if legend_handles:
-            self.ax.legend(legend_handles, legend_labels, loc='upper right', fontsize=8)
-        
-        # 여백 조정
-        self.figure.tight_layout()
-        self.canvas.draw()
+            painter.setPen(QPen(QColor(255, 255, 255), 2))
+            painter.drawText(pixel_x + 12, pixel_y - 5, f"R{robot_id}")
+            
+        painter.end()
+        self.setPixmap(pixmap)
 
     def update_robot_positions(self, robot_states):
         """로봇 위치 정보 업데이트"""
         self.robot_positions = robot_states
         self.update_map()
-
 
 # === 메인 GUI 창 ===
 class IntegratedMainWindow(QMainWindow):
@@ -622,7 +599,7 @@ class IntegratedMainWindow(QMainWindow):
         self.fps_timer.start(1000)
 
     def setup_map_section(self, main_layout):
-        """맵 섹션 설정 (matplotlib 기반으로 수정됨)"""
+        """맵 섹션 설정"""
         # 커스텀 맵 데이터
         custom_map = [
             [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
@@ -642,9 +619,9 @@ class IntegratedMainWindow(QMainWindow):
         map_group = QGroupBox('1분면: 맵 + 로봇 위치')
         map_layout = QVBoxLayout()
         
-        # 맵 위젯 생성 (matplotlib 기반으로 변경됨)
+        # 맵 위젯 생성
         self.map_widget = MapWidget(custom_map)
-        map_layout.addWidget(self.map_widget)
+        map_layout.addWidget(self.map_widget, alignment=Qt.AlignCenter)
         
         # 맵 정보 표시
         map_info_layout = QHBoxLayout()

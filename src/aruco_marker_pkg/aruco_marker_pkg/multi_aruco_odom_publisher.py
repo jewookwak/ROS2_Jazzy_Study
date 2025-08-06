@@ -1034,34 +1034,30 @@ class ArucoOdometryPublisher(Node):
 
 
 def main():
-    rclpy.init()
     import os
     from pathlib import Path
-    
-    # 현재 작업 디렉토리에서 워크스페이스 루트 찾기
-    current_path = Path.cwd()
-    
-    # 워크스페이스 루트 찾기 (build나 install이 있는 디렉토리)
-    workspace_root = current_path
-    while workspace_root.name not in ['ROS2_Jazzy_Study'] and workspace_root.parent != workspace_root:
-        workspace_root = workspace_root.parent
-        
-    # src 디렉토리의 패키지 경로
-    base_path = workspace_root / 'src' / 'aruco_marker_pkg' / 'include'
+    rclpy.init()
 
-    # 파일 존재 확인
+    # 현재 파일 기준으로 include 경로 계산
+    script_path = Path(__file__).resolve()
+    package_root = script_path.parent.parent  # aruco_marker_pkg/
+    base_path = package_root / 'include'
+
+    # 파일 경로 설정
     camera_matrix_path = base_path / 'camera_matrix.npy'
     dist_coeffs_path = base_path / 'dist_coeffs.npy'
-    
+
+    # 존재 여부 확인
     if not camera_matrix_path.exists():
         raise FileNotFoundError(f"camera_matrix.npy not found at {camera_matrix_path}")
     if not dist_coeffs_path.exists():
         raise FileNotFoundError(f"dist_coeffs.npy not found at {dist_coeffs_path}")
-        
+
     camera_matrix = np.load(str(camera_matrix_path))
     dist_coeffs = np.load(str(dist_coeffs_path))
 
     node = ArucoOdometryPublisher(camera_matrix, dist_coeffs)
+
     try:
         while rclpy.ok():
             node.process_frame()

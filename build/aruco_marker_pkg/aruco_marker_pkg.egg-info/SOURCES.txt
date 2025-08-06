@@ -15,6 +15,7 @@ aruco_marker_pkg/aruco_odom_publisher.py
 aruco_marker_pkg/aruco_path_tracker.py
 aruco_marker_pkg/aruco_test.py
 aruco_marker_pkg/monitoring_gui.py
+aruco_marker_pkg/monitoring_gui_matplot.py
 aruco_marker_pkg/monitoring_map_gui.py
 aruco_marker_pkg/multi_aruco_odom_publisher.py
 aruco_marker_pkg/pose_publisher.py

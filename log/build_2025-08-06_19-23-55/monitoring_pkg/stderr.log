@@ -1,0 +1,37 @@
+[01m[K/home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp:[m[K In constructor ‘[01m[KIntegratedRosThread::[01;32m[KIntegratedRosThread[m[K(std::shared_ptr<rclcpp::Node>, QObject*)[m[K’:
+[01m[K/home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp:177:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KIntegratedRosThread::frame_count_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  177 |     int [01;35m[Kframe_count_[m[K;
+      |         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp:169:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble IntegratedRosThread::velocity_alpha_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  169 |     double [01;35m[Kvelocity_alpha_[m[K;
+      |            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp:457:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  457 | [01;35m[KIntegratedRosThread[m[K::IntegratedRosThread(std::shared_ptr<rclcpp::Node> node, QObject* parent)
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp:[m[K In member function ‘[01m[Kvirtual void MapWidget::[01;32m[KpaintEvent[m[K(QPaintEvent*)[m[K’:
+[01m[K/home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp:755:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  755 | void MapWidget::paintEvent([01;35m[KQPaintEvent* event[m[K) {
+      |                            [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp:[m[K In member function ‘[01m[Kvoid MapWidget::[01;32m[Kdraw_map[m[K(QPainter&)[m[K’:
+[01m[K/home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp:768:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  768 |     for (int row = 0; [01;35m[Krow < map_data_.size()[m[K; ++row) {
+      |                       [01;35m[K~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp:769:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  769 |         for (int col = 0; [01;35m[Kcol < map_data_[row].size()[m[K; ++col) {
+      |                           [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp:[m[K In member function ‘[01m[Kvoid IntegratedMainWindow::[01;32m[Ksetup_pid_tab[m[K()[m[K’:
+[01m[K/home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp:959:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::tuple<QString, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  959 |     for (int i = 0; [01;35m[Ki < pid_params.size()[m[K; ++i) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp:[m[K In member function ‘[01m[Kvoid IntegratedMainWindow::[01;32m[Ksetup_goal_mover_tab[m[K()[m[K’:
+[01m[K/home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp:1005:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::tuple<QString, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, double, double, double, double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1005 |     for (int i = 0; [01;35m[Ki < goal_params.size()[m[K; ++i) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp:[m[K In member function ‘[01m[Kvoid IntegratedMainWindow::[01;32m[Ksetup_aruco_tab[m[K()[m[K’:
+[01m[K/home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp:1051:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::tuple<QString, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, double, double, double, double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1051 |     for (int i = 0; [01;35m[Ki < filter_params.size()[m[K; ++i) {
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp:[m[K In lambda function:
+[01m[K/home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp:1064:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1064 |                 [this, param_name]([01;35m[Kdouble value[m[K) {
+      |                                    [01;35m[K~~~~~~~^~~~~[m[K

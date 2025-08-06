@@ -1,0 +1,465 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'monitoring_gui.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.13)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <memory>
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'monitoring_gui.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.15.13. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_IntegratedRosThread_t {
+    QByteArrayData data[15];
+    char stringdata0[175];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_IntegratedRosThread_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_IntegratedRosThread_t qt_meta_stringdata_IntegratedRosThread = {
+    {
+QT_MOC_LITERAL(0, 0, 19), // "IntegratedRosThread"
+QT_MOC_LITERAL(1, 20, 12), // "state_update"
+QT_MOC_LITERAL(2, 33, 0), // ""
+QT_MOC_LITERAL(3, 34, 5), // "state"
+QT_MOC_LITERAL(4, 40, 12), // "angle_update"
+QT_MOC_LITERAL(5, 53, 5), // "angle"
+QT_MOC_LITERAL(6, 59, 11), // "dist_update"
+QT_MOC_LITERAL(7, 71, 8), // "distance"
+QT_MOC_LITERAL(8, 80, 10), // "img_update"
+QT_MOC_LITERAL(9, 91, 5), // "image"
+QT_MOC_LITERAL(10, 97, 19), // "robot_states_update"
+QT_MOC_LITERAL(11, 117, 12), // "robot_states"
+QT_MOC_LITERAL(12, 130, 18), // "performance_update"
+QT_MOC_LITERAL(13, 149, 11), // "performance"
+QT_MOC_LITERAL(14, 161, 13) // "process_frame"
+
+    },
+    "IntegratedRosThread\0state_update\0\0"
+    "state\0angle_update\0angle\0dist_update\0"
+    "distance\0img_update\0image\0robot_states_update\0"
+    "robot_states\0performance_update\0"
+    "performance\0process_frame"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_IntegratedRosThread[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       7,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       6,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    1,   49,    2, 0x06 /* Public */,
+       4,    1,   52,    2, 0x06 /* Public */,
+       6,    1,   55,    2, 0x06 /* Public */,
+       8,    1,   58,    2, 0x06 /* Public */,
+      10,    1,   61,    2, 0x06 /* Public */,
+      12,    1,   64,    2, 0x06 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags
+      14,    0,   67,    2, 0x08 /* Private */,
+
+ // signals: parameters
+    QMetaType::Void, QMetaType::QString,    3,
+    QMetaType::Void, QMetaType::Double,    5,
+    QMetaType::Void, QMetaType::Double,    7,
+    QMetaType::Void, QMetaType::QImage,    9,
+    QMetaType::Void, QMetaType::QVariantMap,   11,
+    QMetaType::Void, QMetaType::QVariantMap,   13,
+
+ // slots: parameters
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void IntegratedRosThread::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<IntegratedRosThread *>(_o);
+        (void)_t;
+        switch (_id) {
+        case 0: _t->state_update((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 1: _t->angle_update((*reinterpret_cast< double(*)>(_a[1]))); break;
+        case 2: _t->dist_update((*reinterpret_cast< double(*)>(_a[1]))); break;
+        case 3: _t->img_update((*reinterpret_cast< QImage(*)>(_a[1]))); break;
+        case 4: _t->robot_states_update((*reinterpret_cast< QVariantMap(*)>(_a[1]))); break;
+        case 5: _t->performance_update((*reinterpret_cast< QVariantMap(*)>(_a[1]))); break;
+        case 6: _t->process_frame(); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (IntegratedRosThread::*)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&IntegratedRosThread::state_update)) {
+                *result = 0;
+                return;
+            }
+        }
+        {
+            using _t = void (IntegratedRosThread::*)(double );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&IntegratedRosThread::angle_update)) {
+                *result = 1;
+                return;
+            }
+        }
+        {
+            using _t = void (IntegratedRosThread::*)(double );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&IntegratedRosThread::dist_update)) {
+                *result = 2;
+                return;
+            }
+        }
+        {
+            using _t = void (IntegratedRosThread::*)(QImage );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&IntegratedRosThread::img_update)) {
+                *result = 3;
+                return;
+            }
+        }
+        {
+            using _t = void (IntegratedRosThread::*)(QVariantMap );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&IntegratedRosThread::robot_states_update)) {
+                *result = 4;
+                return;
+            }
+        }
+        {
+            using _t = void (IntegratedRosThread::*)(QVariantMap );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&IntegratedRosThread::performance_update)) {
+                *result = 5;
+                return;
+            }
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject IntegratedRosThread::staticMetaObject = { {
+    QMetaObject::SuperData::link<QThread::staticMetaObject>(),
+    qt_meta_stringdata_IntegratedRosThread.data,
+    qt_meta_data_IntegratedRosThread,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *IntegratedRosThread::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *IntegratedRosThread::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_IntegratedRosThread.stringdata0))
+        return static_cast<void*>(this);
+    return QThread::qt_metacast(_clname);
+}
+
+int IntegratedRosThread::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QThread::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 7)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 7;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 7)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 7;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void IntegratedRosThread::state_update(QString _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void IntegratedRosThread::angle_update(double _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+
+// SIGNAL 2
+void IntegratedRosThread::dist_update(double _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+}
+
+// SIGNAL 3
+void IntegratedRosThread::img_update(QImage _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 3, _a);
+}
+
+// SIGNAL 4
+void IntegratedRosThread::robot_states_update(QVariantMap _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 4, _a);
+}
+
+// SIGNAL 5
+void IntegratedRosThread::performance_update(QVariantMap _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
+    QMetaObject::activate(this, &staticMetaObject, 5, _a);
+}
+struct qt_meta_stringdata_MapWidget_t {
+    QByteArrayData data[4];
+    char stringdata0[47];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_MapWidget_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_MapWidget_t qt_meta_stringdata_MapWidget = {
+    {
+QT_MOC_LITERAL(0, 0, 9), // "MapWidget"
+QT_MOC_LITERAL(1, 10, 22), // "update_robot_positions"
+QT_MOC_LITERAL(2, 33, 0), // ""
+QT_MOC_LITERAL(3, 34, 12) // "robot_states"
+
+    },
+    "MapWidget\0update_robot_positions\0\0"
+    "robot_states"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_MapWidget[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    1,   19,    2, 0x0a /* Public */,
+
+ // slots: parameters
+    QMetaType::Void, QMetaType::QVariantMap,    3,
+
+       0        // eod
+};
+
+void MapWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<MapWidget *>(_o);
+        (void)_t;
+        switch (_id) {
+        case 0: _t->update_robot_positions((*reinterpret_cast< const QVariantMap(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject MapWidget::staticMetaObject = { {
+    QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
+    qt_meta_stringdata_MapWidget.data,
+    qt_meta_data_MapWidget,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *MapWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *MapWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_MapWidget.stringdata0))
+        return static_cast<void*>(this);
+    return QWidget::qt_metacast(_clname);
+}
+
+int MapWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 1;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_IntegratedMainWindow_t {
+    QByteArrayData data[13];
+    char stringdata0[185];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_IntegratedMainWindow_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_IntegratedMainWindow_t qt_meta_stringdata_IntegratedMainWindow = {
+    {
+QT_MOC_LITERAL(0, 0, 20), // "IntegratedMainWindow"
+QT_MOC_LITERAL(1, 21, 13), // "update_camera"
+QT_MOC_LITERAL(2, 35, 0), // ""
+QT_MOC_LITERAL(3, 36, 5), // "image"
+QT_MOC_LITERAL(4, 42, 19), // "update_robot_states"
+QT_MOC_LITERAL(5, 62, 12), // "robot_states"
+QT_MOC_LITERAL(6, 75, 18), // "update_performance"
+QT_MOC_LITERAL(7, 94, 11), // "performance"
+QT_MOC_LITERAL(8, 106, 18), // "update_fps_display"
+QT_MOC_LITERAL(9, 125, 14), // "emergency_stop"
+QT_MOC_LITERAL(10, 140, 12), // "system_reset"
+QT_MOC_LITERAL(11, 153, 15), // "save_parameters"
+QT_MOC_LITERAL(12, 169, 15) // "load_parameters"
+
+    },
+    "IntegratedMainWindow\0update_camera\0\0"
+    "image\0update_robot_states\0robot_states\0"
+    "update_performance\0performance\0"
+    "update_fps_display\0emergency_stop\0"
+    "system_reset\0save_parameters\0"
+    "load_parameters"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_IntegratedMainWindow[] = {
+
+ // content:
+       8,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       8,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    1,   54,    2, 0x08 /* Private */,
+       4,    1,   57,    2, 0x08 /* Private */,
+       6,    1,   60,    2, 0x08 /* Private */,
+       8,    0,   63,    2, 0x08 /* Private */,
+       9,    0,   64,    2, 0x08 /* Private */,
+      10,    0,   65,    2, 0x08 /* Private */,
+      11,    0,   66,    2, 0x08 /* Private */,
+      12,    0,   67,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void, QMetaType::QImage,    3,
+    QMetaType::Void, QMetaType::QVariantMap,    5,
+    QMetaType::Void, QMetaType::QVariantMap,    7,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void IntegratedMainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        auto *_t = static_cast<IntegratedMainWindow *>(_o);
+        (void)_t;
+        switch (_id) {
+        case 0: _t->update_camera((*reinterpret_cast< const QImage(*)>(_a[1]))); break;
+        case 1: _t->update_robot_states((*reinterpret_cast< const QVariantMap(*)>(_a[1]))); break;
+        case 2: _t->update_performance((*reinterpret_cast< const QVariantMap(*)>(_a[1]))); break;
+        case 3: _t->update_fps_display(); break;
+        case 4: _t->emergency_stop(); break;
+        case 5: _t->system_reset(); break;
+        case 6: _t->save_parameters(); break;
+        case 7: _t->load_parameters(); break;
+        default: ;
+        }
+    }
+}
+
+QT_INIT_METAOBJECT const QMetaObject IntegratedMainWindow::staticMetaObject = { {
+    QMetaObject::SuperData::link<QMainWindow::staticMetaObject>(),
+    qt_meta_stringdata_IntegratedMainWindow.data,
+    qt_meta_data_IntegratedMainWindow,
+    qt_static_metacall,
+    nullptr,
+    nullptr
+} };
+
+
+const QMetaObject *IntegratedMainWindow::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *IntegratedMainWindow::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_IntegratedMainWindow.stringdata0))
+        return static_cast<void*>(this);
+    return QMainWindow::qt_metacast(_clname);
+}
+
+int IntegratedMainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QMainWindow::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 8)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 8;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 8)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 8;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

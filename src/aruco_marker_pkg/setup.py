@@ -29,6 +29,7 @@ setup(
             'monitoring_map_gui = aruco_marker_pkg.monitoring_map_gui:main',
             'aruco_test = aruco_marker_pkg.aruco_test:main',
             'monitoring_gui = aruco_marker_pkg.monitoring_gui:main',
+            'monitoring_gui_matplot = aruco_marker_pkg.monitoring_gui_matplot:main',
         ],
     },
 )
