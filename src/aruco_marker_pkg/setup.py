@@ -30,6 +30,7 @@ setup(
             'aruco_test = aruco_marker_pkg.aruco_test:main',
             'monitoring_gui = aruco_marker_pkg.monitoring_gui:main',
             'monitoring_gui_matplot = aruco_marker_pkg.monitoring_gui_matplot:main',
+            'qmonitor_state_machine = aruco_marker_pkg.qmonitor_state_machine:main',
         ],
     },
 )

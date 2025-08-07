@@ -1,0 +1,16 @@
+tolerances:
+  angle: 0.1
+  distance: 0.01
+angular:
+  P: 0.5
+  I: 0.1
+  D: 0.1
+  max_state: 2.0
+  min_state: -2.0
+linear:
+  P: 0.8
+  I: 0.1
+  D: 0.1
+  max_state: 1.0
+  min_state: -1.0
+use_euclidean_distance: true

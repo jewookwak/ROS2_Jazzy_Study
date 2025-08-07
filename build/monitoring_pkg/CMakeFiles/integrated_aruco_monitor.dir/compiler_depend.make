@@ -1974,94 +1974,19 @@ integrated_aruco_monitor_autogen/timestamp: CMakeFiles/3.28.3/CMakeCCompiler.cma
   /usr/lib/x86_64-linux-gnu/console_bridge/cmake/console_bridge-config.cmake \
   /usr/lib/x86_64-linux-gnu/console_bridge/cmake/console_bridge-targets-none.cmake \
   /usr/lib/x86_64-linux-gnu/console_bridge/cmake/console_bridge-targets.cmake \
-  /usr/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in \
-  /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c \
   /usr/share/cmake-3.28/Modules/CMakeCInformation.cmake \
-  /usr/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in \
-  /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp \
   /usr/share/cmake-3.28/Modules/CMakeCXXInformation.cmake \
   /usr/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake \
-  /usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake \
-  /usr/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake \
-  /usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake \
-  /usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake \
-  /usr/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake \
   /usr/share/cmake-3.28/Modules/CMakeGenericSystem.cmake \
   /usr/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake \
   /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake \
   /usr/share/cmake-3.28/Modules/CMakeParseArguments.cmake \
-  /usr/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake \
-  /usr/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake \
-  /usr/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake \
-  /usr/share/cmake-3.28/Modules/CMakeSystem.cmake.in \
   /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake \
   /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake \
-  /usr/share/cmake-3.28/Modules/CMakeUnixFindMake.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
   /usr/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
   /usr/share/cmake-3.28/Modules/Compiler/GNU-C.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake \
   /usr/share/cmake-3.28/Modules/Compiler/GNU.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
-  /usr/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /usr/share/cmake-3.28/Modules/DartConfiguration.tcl.in \
   /usr/share/cmake-3.28/Modules/FindOpenSSL.cmake \
   /usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake \
@@ -2069,8 +1994,6 @@ integrated_aruco_monitor_autogen/timestamp: CMakeFiles/3.28.3/CMakeCCompiler.cma
   /usr/share/cmake-3.28/Modules/FindPkgConfig.cmake \
   /usr/share/cmake-3.28/Modules/FindPython/Support.cmake \
   /usr/share/cmake-3.28/Modules/FindPython3.cmake \
-  /usr/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake \
-  /usr/share/cmake-3.28/Modules/Platform/Linux-Determine-CXX.cmake \
   /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake \
   /usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake \
   /usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake \
@@ -3179,11 +3102,17 @@ CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.o: /home/addinned
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
+
 /usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
@@ -3217,95 +3146,17 @@ CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.o: /home/addinned
 
 /usr/share/cmake-3.28/Modules/DartConfiguration.tcl.in:
 
-/usr/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake:
-
 /usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /usr/share/cmake-3.28/Modules/Compiler/GNU-C.cmake:
 
-/usr/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake:
-
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
-/usr/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
-
-/usr/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake:
-
-/usr/share/cmake-3.28/Modules/CMakeUnixFindMake.cmake:
-
-/usr/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake:
-
-/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:
-
 /usr/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake:
-
-/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:
-
-/usr/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake:
 
 /usr/share/cmake-3.28/Modules/CMakeParseArguments.cmake:
 
 /usr/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake:
-
-/usr/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake:
-
-/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:
-
-/usr/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake:
-
-/usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c:
-
-/usr/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in:
 
 /usr/lib/x86_64-linux-gnu/console_bridge/cmake/console_bridge-targets-none.cmake:
 
@@ -3336,8 +3187,6 @@ CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.o: /home/addinned
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake:
 
 integrated_aruco_monitor_autogen/include/monitoring_gui.moc:
-
-/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake:
 
@@ -3372,8 +3221,6 @@ integrated_aruco_monitor_autogen/include/monitoring_gui.moc:
 /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h:
-
-/usr/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
 
@@ -3436,8 +3283,6 @@ integrated_aruco_monitor_autogen/include/monitoring_gui.moc:
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h:
-
-/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h:
 
@@ -3536,8 +3381,6 @@ integrated_aruco_monitor_autogen/include/monitoring_gui.moc:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h:
 
@@ -3731,8 +3574,6 @@ integrated_aruco_monitor_autogen/include/monitoring_gui.moc:
 
 /usr/include/opencv4/opencv2/core/traits.hpp:
 
-/usr/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake:
-
 /usr/include/opencv4/opencv2/core/persistence.hpp:
 
 /usr/include/opencv4/opencv2/core/operations.hpp:
@@ -3756,8 +3597,6 @@ integrated_aruco_monitor_autogen/include/monitoring_gui.moc:
 /usr/include/opencv4/opencv2/core/cvdef.h:
 
 /usr/include/opencv4/opencv2/core/cv_cpu_dispatch.h:
-
-/usr/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake:
 
 /usr/include/opencv4/opencv2/core/cuda.inl.hpp:
 
@@ -3855,8 +3694,6 @@ integrated_aruco_monitor_autogen/include/monitoring_gui.moc:
 
 /usr/include/c++/13/locale:
 
-/usr/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qdeadlinetimer.h:
 
 /usr/include/c++/13/list:
@@ -3900,8 +3737,6 @@ integrated_aruco_monitor_autogen/include/monitoring_gui.moc:
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/c++/13/complex:
-
-/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
@@ -4099,8 +3934,6 @@ integrated_aruco_monitor_autogen/include/monitoring_gui.moc:
 
 /opt/ros/jazzy/share/unique_identifier_msgs/cmake/unique_identifier_msgsConfig-version.cmake:
 
-/usr/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in:
-
 /opt/ros/jazzy/share/unique_identifier_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake:
 
 /opt/ros/jazzy/share/unique_identifier_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake:
@@ -4162,8 +3995,6 @@ integrated_aruco_monitor_autogen/include/monitoring_gui.moc:
 /usr/include/opencv4/opencv2/ml/ml.inl.hpp:
 
 /opt/ros/jazzy/share/type_description_interfaces/cmake/ament_cmake_export_targets-extras.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
 
 /opt/ros/jazzy/share/type_description_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake:
 
@@ -4371,8 +4202,6 @@ integrated_aruco_monitor_autogen/include/monitoring_gui.moc:
 
 /opt/ros/jazzy/share/sensor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake:
 
-/usr/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
-
 /opt/ros/jazzy/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cppExport-none.cmake:
 
 /opt/ros/jazzy/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cExport-none.cmake:
@@ -4382,8 +4211,6 @@ integrated_aruco_monitor_autogen/include/monitoring_gui.moc:
 /opt/ros/jazzy/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cppExport.cmake:
 
 /opt/ros/jazzy/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cExport.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
@@ -4515,8 +4342,6 @@ integrated_aruco_monitor_autogen/include/monitoring_gui.moc:
 
 /opt/ros/jazzy/include/tf2_ros/tf2_ros/transform_broadcaster.h:
 
-/usr/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake:
-
 /usr/include/c++/13/bits/codecvt.h:
 
 /opt/ros/jazzy/include/tf2/tf2/LinearMath/Quaternion.h:
@@ -4643,8 +4468,6 @@ integrated_aruco_monitor_autogen/include/monitoring_gui.moc:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/subscription_traits.hpp:
 
-/usr/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h:
 
 /opt/ros/jazzy/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
@@ -4679,8 +4502,6 @@ integrated_aruco_monitor_autogen/include/monitoring_gui.moc:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/dynamic_typesupport/dynamic_serialization_support.hpp:
 
-/usr/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
-
 /opt/ros/jazzy/include/rmw/rmw/ret_types.h:
 
 /opt/ros/jazzy/share/rclcpp_action/cmake/ament_cmake_export_targets-extras.cmake:
@@ -4688,8 +4509,6 @@ integrated_aruco_monitor_autogen/include/monitoring_gui.moc:
 /usr/include/c++/13/bits/range_access.h:
 
 /opt/ros/jazzy/include/rmw/rmw/qos_string_conversions.h:
-
-/usr/share/cmake-3.28/Modules/CMakeSystem.cmake.in:
 
 /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport-none.cmake:
 
@@ -4855,8 +4674,6 @@ integrated_aruco_monitor_autogen/moc_predefs.h:
 
 /opt/ros/jazzy/share/rmw_dds_common/cmake/ament_cmake_export_dependencies-extras.cmake:
 
-/usr/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/wait_result_kind.hpp:
 
 /usr/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp:
@@ -4888,8 +4705,6 @@ integrated_aruco_monitor_autogen/moc_predefs.h:
 /opt/ros/jazzy/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:
-
-/usr/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake:
 
 /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/type_description/individual_type_description__struct.h:
 
@@ -5131,8 +4946,6 @@ ament_cmake_package_templates/templates.cmake:
 
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp:
 
-/usr/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
-
 /opt/ros/jazzy/share/action_msgs/cmake/action_msgs__rosidl_typesupport_cExport.cmake:
 
 /opt/ros/jazzy/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport.cmake:
@@ -5309,13 +5122,9 @@ ament_cmake_package_templates/templates.cmake:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
 
-/usr/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake:
-
 /opt/ros/jazzy/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp:
 
 /opt/ros/jazzy/share/rcpputils/cmake/ament_cmake_export_dependencies-extras.cmake:
-
-/usr/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake:
 
 /opt/ros/jazzy/share/tf2/cmake/ament_cmake_export_dependencies-extras.cmake:
 
@@ -5414,8 +5223,6 @@ ament_cmake_package_templates/templates.cmake:
 /opt/ros/jazzy/share/rosgraph_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake:
 
 /opt/ros/jazzy/share/ament_cmake_core/cmake/index/ament_cmake_index_package_hook.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake:
 
 /usr/include/c++/13/csignal:
 
@@ -5548,8 +5355,6 @@ ament_cmake_package_templates/templates.cmake:
 /opt/ros/jazzy/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_cExport-none.cmake:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/node_interfaces/node_clock_interface_traits.hpp:
-
-/usr/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake:
 
 /home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/CMakeLists.txt:
 
@@ -5985,8 +5790,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/create_generic_publisher.hpp:
 
-/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:
-
 /usr/include/c++/13/bits/ios_base.h:
 
 /opt/ros/jazzy/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake:
@@ -6005,11 +5808,7 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /opt/ros/jazzy/share/rosgraph_msgs/cmake/export_rosgraph_msgs__rosidl_typesupport_fastrtps_cExport.cmake:
 
-/usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/simple_events_queue.hpp:
-
-/usr/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h:
 
@@ -6038,8 +5837,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 /opt/ros/jazzy/include/rmw/rmw/get_topic_names_and_types.h:
 
 /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/type_description__struct.h:
-
-/usr/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/experimental/executors/events_executor/events_executor.hpp:
 
@@ -6191,8 +5988,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 
 /opt/ros/jazzy/share/ament_cmake_uncrustify/cmake/ament_cmake_uncrustify-extras.cmake:
 
-/usr/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake:
-
 /opt/ros/jazzy/share/tf2_ros/cmake/ament_cmake_export_dependencies-extras.cmake:
 
 /opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake:
@@ -6240,10 +6035,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 /opt/ros/jazzy/share/ament_cmake_core/cmake/index/ament_index_register_package.cmake:
 
 /opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install.cmake.in:
-
-/usr/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake:
-
-/usr/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake:
 
 /usr/include/opencv4/opencv2/core/version.hpp:
 
@@ -6350,8 +6141,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 /opt/ros/jazzy/share/ament_cmake_export_libraries/cmake/ament_cmake_export_libraries-extras.cmake:
 
 /opt/ros/jazzy/share/ament_cmake_export_libraries/cmake/ament_cmake_export_librariesConfig.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake:
 
 /opt/ros/jazzy/share/ament_cmake_export_libraries/cmake/ament_export_libraries.cmake:
 
@@ -6474,8 +6263,6 @@ CMakeFiles/3.28.3/CMakeSystem.cmake:
 /home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp:
 
 /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_cmake_target_dependencies-extras.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake:
 
 /opt/ros/jazzy/include/rclcpp/rclcpp/message_memory_strategy.hpp:
 
@@ -6600,8 +6387,6 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:
 
 /opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport-none.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake:
 
@@ -6767,8 +6552,6 @@ CMakeFiles/3.28.3/CMakeCCompiler.cmake:
 
 /opt/ros/jazzy/share/libstatistics_collector/cmake/libstatistics_collectorExport-none.cmake:
 
-/usr/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
@@ -6875,8 +6658,6 @@ integrated_aruco_monitor_autogen/mocs_compilation.cpp:
 
 /opt/ros/jazzy/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cppExport.cmake:
 
-/usr/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake:
-
 /opt/ros/jazzy/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp:
 
 /opt/ros/jazzy/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cExport.cmake:
@@ -6919,8 +6700,6 @@ integrated_aruco_monitor_autogen/mocs_compilation.cpp:
 
 /opt/ros/jazzy/share/rcl_action/cmake/ament_cmake_export_dependencies-extras.cmake:
 
-/usr/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake:
-
 /usr/include/x86_64-linux-gnu/qt5/QtGui/QPixmap:
 
 /opt/ros/jazzy/share/rcl_action/cmake/ament_cmake_export_targets-extras.cmake:
@@ -6940,8 +6719,6 @@ integrated_aruco_monitor_autogen/mocs_compilation.cpp:
 /opt/ros/jazzy/share/rcl_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:
 
 /opt/ros/jazzy/share/rcl_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake:
 
 /usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake:
 
@@ -7011,8 +6788,6 @@ integrated_aruco_monitor_autogen/mocs_compilation.cpp:
 
 /opt/ros/jazzy/share/rcl_logging_interface/cmake/rcl_logging_interfaceExport-none.cmake:
 
-/usr/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake:
-
 /opt/ros/jazzy/share/rcl_interfaces/cmake/rosidl_cmake-extras.cmake:
 
 /opt/ros/jazzy/share/rcl_yaml_param_parser/cmake/ament_cmake_export_targets-extras.cmake:
@@ -7060,8 +6835,6 @@ integrated_aruco_monitor_autogen/mocs_compilation.cpp:
 /usr/include/c++/13/bits/enable_special_members.h:
 
 /opt/ros/jazzy/share/rclcpp_components/cmake/export_rclcpp_componentsExport.cmake:
-
-/usr/share/cmake-3.28/Modules/Platform/Linux-Determine-CXX.cmake:
 
 /usr/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp:
 
@@ -7199,8 +6972,6 @@ integrated_aruco_monitor_autogen/mocs_compilation.cpp:
 
 /opt/ros/jazzy/share/rmw_dds_common/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake:
 
-/usr/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h:
 
 /opt/ros/jazzy/share/tf2_ros/cmake/tf2_rosConfig.cmake:
@@ -7310,8 +7081,6 @@ integrated_aruco_monitor_autogen/mocs_compilation.cpp:
 /opt/ros/jazzy/share/rmw_dds_common/cmake/export_rmw_dds_common__rosidl_typesupport_fastrtps_cppExport.cmake:
 
 /opt/ros/jazzy/share/rosidl_generator_c/cmake/ament_cmake_export_dependencies-extras.cmake:
-
-/usr/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:
 

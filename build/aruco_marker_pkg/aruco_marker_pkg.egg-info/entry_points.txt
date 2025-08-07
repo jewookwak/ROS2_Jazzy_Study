@@ -9,3 +9,4 @@ monitoring_gui_matplot = aruco_marker_pkg.monitoring_gui_matplot:main
 monitoring_map_gui = aruco_marker_pkg.monitoring_map_gui:main
 multi_aruco_odom_publisher = aruco_marker_pkg.multi_aruco_odom_publisher:main
 pose_publisher = aruco_marker_pkg.pose_publisher:main
+qmonitor_state_machine = aruco_marker_pkg.qmonitor_state_machine:main

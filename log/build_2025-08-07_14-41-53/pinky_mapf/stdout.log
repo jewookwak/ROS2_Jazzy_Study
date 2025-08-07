@@ -1,0 +1,41 @@
+running develop
+Removing /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages/pinky-mapf.egg-link (link to .)
+running egg_info
+writing ../../build/pinky_mapf/pinky_mapf.egg-info/PKG-INFO
+writing dependency_links to ../../build/pinky_mapf/pinky_mapf.egg-info/dependency_links.txt
+writing entry points to ../../build/pinky_mapf/pinky_mapf.egg-info/entry_points.txt
+writing requirements to ../../build/pinky_mapf/pinky_mapf.egg-info/requires.txt
+writing top-level names to ../../build/pinky_mapf/pinky_mapf.egg-info/top_level.txt
+reading manifest file '../../build/pinky_mapf/pinky_mapf.egg-info/SOURCES.txt'
+writing manifest file '../../build/pinky_mapf/pinky_mapf.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages/pinky_mapf
+copying /home/addinnedu/ROS2_Jazzy_Study/build/pinky_mapf/build/lib/pinky_mapf/goal_point.py -> /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages/pinky_mapf
+copying /home/addinnedu/ROS2_Jazzy_Study/build/pinky_mapf/build/lib/pinky_mapf/follow_waypoints_client.py -> /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages/pinky_mapf
+copying /home/addinnedu/ROS2_Jazzy_Study/build/pinky_mapf/build/lib/pinky_mapf/central_waypoint_publisher.py -> /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages/pinky_mapf
+copying /home/addinnedu/ROS2_Jazzy_Study/build/pinky_mapf/build/lib/pinky_mapf/__init__.py -> /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages/pinky_mapf
+copying /home/addinnedu/ROS2_Jazzy_Study/build/pinky_mapf/build/lib/pinky_mapf/goal_point2.py -> /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages/pinky_mapf
+copying /home/addinnedu/ROS2_Jazzy_Study/build/pinky_mapf/build/lib/pinky_mapf/goal_point3.py -> /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages/pinky_mapf
+copying /home/addinnedu/ROS2_Jazzy_Study/build/pinky_mapf/build/lib/pinky_mapf/goal_point1.py -> /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages/pinky_mapf
+byte-compiling /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages/pinky_mapf/goal_point.py to goal_point.cpython-312.pyc
+byte-compiling /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages/pinky_mapf/follow_waypoints_client.py to follow_waypoints_client.cpython-312.pyc
+byte-compiling /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages/pinky_mapf/central_waypoint_publisher.py to central_waypoint_publisher.cpython-312.pyc
+byte-compiling /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages/pinky_mapf/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages/pinky_mapf/goal_point2.py to goal_point2.cpython-312.pyc
+byte-compiling /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages/pinky_mapf/goal_point3.py to goal_point3.cpython-312.pyc
+byte-compiling /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages/pinky_mapf/goal_point1.py to goal_point1.cpython-312.pyc
+running install_data
+copying resource/pinky_mapf -> /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/share/ament_index/resource_index/packages
+copying package.xml -> /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/share/pinky_mapf
+running install_egg_info
+Copying ../../build/pinky_mapf/pinky_mapf.egg-info to /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages/pinky_mapf-0.0.1-py3.12.egg-info
+running install_scripts
+Installing follow_waypoints_client script to /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/pinky_mapf
+Installing goal_point script to /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/pinky_mapf
+Installing goal_point1 script to /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/pinky_mapf
+Installing goal_point2 script to /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/pinky_mapf
+Installing goal_point3 script to /home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf/lib/pinky_mapf
+writing list of installed files to '/home/addinnedu/ROS2_Jazzy_Study/build/pinky_mapf/install.log'

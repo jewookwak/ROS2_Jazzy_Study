@@ -1,0 +1,19 @@
+[100%] Built target goal_pose_listener
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/lib/pinky_rmf/goal_pose_listener
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/ament_index/resource_index/package_run_dependencies/pinky_rmf
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/ament_index/resource_index/parent_prefix_path/pinky_rmf
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/environment/path.sh
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/environment/path.dsv
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/local_setup.bash
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/local_setup.sh
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/local_setup.zsh
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/local_setup.dsv
+-- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/package.dsv
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/ament_index/resource_index/packages/pinky_rmf
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/cmake/pinky_rmfConfig.cmake
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/cmake/pinky_rmfConfig-version.cmake
+-- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/package.xml

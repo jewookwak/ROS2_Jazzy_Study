@@ -19,6 +19,7 @@ aruco_marker_pkg/monitoring_gui_matplot.py
 aruco_marker_pkg/monitoring_map_gui.py
 aruco_marker_pkg/multi_aruco_odom_publisher.py
 aruco_marker_pkg/pose_publisher.py
+aruco_marker_pkg/qmonitor_state_machine.py
 aruco_marker_pkg.egg-info/PKG-INFO
 aruco_marker_pkg.egg-info/SOURCES.txt
 aruco_marker_pkg.egg-info/dependency_links.txt

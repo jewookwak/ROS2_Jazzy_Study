@@ -1,0 +1,23 @@
+[0.669s] Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/pinky_rmf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/addinnedu/ROS2_Jazzy_Study/build/pinky_rmf -- -j16 -l16
+[0.876s] [100%] Built target goal_pose_listener
+[0.890s] Invoked command in '/home/addinnedu/ROS2_Jazzy_Study/build/pinky_rmf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/addinnedu/ROS2_Jazzy_Study/build/pinky_rmf -- -j16 -l16
+[0.891s] Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/pinky_rmf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/addinnedu/ROS2_Jazzy_Study/build/pinky_rmf
+[0.899s] -- Install configuration: ""
+[0.902s] -- Execute custom install script
+[0.902s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/lib/pinky_rmf/goal_pose_listener
+[0.902s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/ament_index/resource_index/package_run_dependencies/pinky_rmf
+[0.903s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/ament_index/resource_index/parent_prefix_path/pinky_rmf
+[0.903s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/environment/ament_prefix_path.sh
+[0.903s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/environment/ament_prefix_path.dsv
+[0.903s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/environment/path.sh
+[0.904s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/environment/path.dsv
+[0.904s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/local_setup.bash
+[0.904s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/local_setup.sh
+[0.905s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/local_setup.zsh
+[0.905s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/local_setup.dsv
+[0.905s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/package.dsv
+[0.912s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/ament_index/resource_index/packages/pinky_rmf
+[0.912s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/cmake/pinky_rmfConfig.cmake
+[0.912s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/cmake/pinky_rmfConfig-version.cmake
+[0.912s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/package.xml
+[0.914s] Invoked command in '/home/addinnedu/ROS2_Jazzy_Study/build/pinky_rmf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/addinnedu/ROS2_Jazzy_Study/build/pinky_rmf

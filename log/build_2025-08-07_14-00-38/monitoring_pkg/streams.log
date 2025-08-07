@@ -1,0 +1,31 @@
+[0.247s] Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg -- -j16 -l16
+[0.892s] [  0%] Built target integrated_aruco_monitor_autogen_timestamp_deps
+[0.892s] [ 20%] Built target integrated_aruco_monitor_autogen
+[0.892s] [100%] Built target integrated_aruco_monitor
+[0.905s] Invoked command in '/home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg -- -j16 -l16
+[0.905s] Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg
+[0.915s] -- Install configuration: ""
+[0.915s] -- Execute custom install script
+[0.916s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg/lib/monitoring_pkg/integrated_aruco_monitor
+[0.918s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg/share/monitoring_pkg//launch/.keep
+[0.918s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg/share/monitoring_pkg//config/.keep
+[0.918s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg/share/monitoring_pkg//config/camera_matrix.xml
+[0.918s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg/share/monitoring_pkg//config/convert_calib.py
+[0.919s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg/share/monitoring_pkg//config/dist_coeffs.xml
+[0.919s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg/share/monitoring_pkg//config/monitoring_params.yaml
+[0.919s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg/share/ament_index/resource_index/package_run_dependencies/monitoring_pkg
+[0.920s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg/share/ament_index/resource_index/parent_prefix_path/monitoring_pkg
+[0.920s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg/share/monitoring_pkg/environment/ament_prefix_path.sh
+[0.920s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg/share/monitoring_pkg/environment/ament_prefix_path.dsv
+[0.920s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg/share/monitoring_pkg/environment/path.sh
+[0.920s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg/share/monitoring_pkg/environment/path.dsv
+[0.921s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg/share/monitoring_pkg/local_setup.bash
+[0.921s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg/share/monitoring_pkg/local_setup.sh
+[0.921s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg/share/monitoring_pkg/local_setup.zsh
+[0.921s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg/share/monitoring_pkg/local_setup.dsv
+[0.921s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg/share/monitoring_pkg/package.dsv
+[0.928s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg/share/ament_index/resource_index/packages/monitoring_pkg
+[0.929s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg/share/monitoring_pkg/cmake/monitoring_pkgConfig.cmake
+[0.929s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg/share/monitoring_pkg/cmake/monitoring_pkgConfig-version.cmake
+[0.929s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg/share/monitoring_pkg/package.xml
+[0.946s] Invoked command in '/home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg

@@ -1,0 +1,19 @@
+[1.660s] Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/build --no-deps symlink_data --force
+[1.997s] running develop
+[2.216s] running egg_info
+[2.235s] writing my_demo_pkg.egg-info/PKG-INFO
+[2.235s] writing dependency_links to my_demo_pkg.egg-info/dependency_links.txt
+[2.236s] writing entry points to my_demo_pkg.egg-info/entry_points.txt
+[2.236s] writing requirements to my_demo_pkg.egg-info/requires.txt
+[2.236s] writing top-level names to my_demo_pkg.egg-info/top_level.txt
+[2.278s] reading manifest file 'my_demo_pkg.egg-info/SOURCES.txt'
+[2.278s] writing manifest file 'my_demo_pkg.egg-info/SOURCES.txt'
+[2.299s] running build_ext
+[2.299s] Creating /home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/python3.12/site-packages/my-demo-pkg.egg-link (link to .)
+[2.300s] Installing talker1 script to /home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/my_demo_pkg
+[2.300s] Installing talker2 script to /home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/my_demo_pkg
+[2.300s] 
+[2.301s] Installed /home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg
+[2.301s] running symlink_data
+[2.301s] symbolically linking /home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/package.xml -> /home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/share/my_demo_pkg
+[2.349s] Invoked command in '/home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/addinnedu/ROS2_Jazzy_Study/build/my_demo_pkg/build --no-deps symlink_data --force

@@ -1,0 +1,46 @@
+[0.893s] Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/traffic_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/addinnedu/ROS2_Jazzy_Study/src/traffic_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner
+[0.909s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.145s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.158s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.206s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.218s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.244s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.306s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.307s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.380s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.447s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.610s] -- Configuring done (0.7s)
+[1.626s] -- Generating done (0.0s)
+[1.630s] -- Build files have been written to: /home/addinnedu/ROS2_Jazzy_Study/build/traffic_planner
+[1.645s] Invoked command in '/home/addinnedu/ROS2_Jazzy_Study/build/traffic_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/addinnedu/ROS2_Jazzy_Study/src/traffic_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner
+[1.646s] Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/traffic_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/addinnedu/ROS2_Jazzy_Study/build/traffic_planner -- -j16 -l16
+[1.710s] [ 33%] Built target traffic_planner_lib
+[1.743s] [ 66%] Built target traffic_planner_node_lib
+[1.776s] [100%] Built target traffic_path_planner
+[1.790s] Invoked command in '/home/addinnedu/ROS2_Jazzy_Study/build/traffic_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/addinnedu/ROS2_Jazzy_Study/build/traffic_planner -- -j16 -l16
+[1.791s] Invoking command in '/home/addinnedu/ROS2_Jazzy_Study/build/traffic_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/addinnedu/ROS2_Jazzy_Study/build/traffic_planner
+[1.800s] -- Install configuration: ""
+[1.801s] -- Execute custom install script
+[1.801s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/lib/traffic_planner/traffic_path_planner
+[1.801s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/lib/traffic_planner/libtraffic_planner_lib.a
+[1.801s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/lib/traffic_planner/libtraffic_planner_node_lib.a
+[1.802s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/include//traffic_planner/TrafficPlanner.hpp
+[1.802s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/include//traffic_planner/TrafficPlannerNode.hpp
+[1.802s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/launch//traffic_planner.launch.py
+[1.802s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/ament_index/resource_index/package_run_dependencies/traffic_planner
+[1.802s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/ament_index/resource_index/parent_prefix_path/traffic_planner
+[1.802s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/environment/ament_prefix_path.sh
+[1.802s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/environment/ament_prefix_path.dsv
+[1.803s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/environment/path.sh
+[1.803s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/environment/path.dsv
+[1.803s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/local_setup.bash
+[1.803s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/local_setup.sh
+[1.803s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/local_setup.zsh
+[1.803s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/local_setup.dsv
+[1.803s] -- Symlinking: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/package.dsv
+[1.816s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/ament_index/resource_index/packages/traffic_planner
+[1.816s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/cmake/traffic_plannerConfig.cmake
+[1.816s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/cmake/traffic_plannerConfig-version.cmake
+[1.816s] -- Up-to-date symlink: /home/addinnedu/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/package.xml
+[1.819s] Invoked command in '/home/addinnedu/ROS2_Jazzy_Study/build/traffic_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/addinnedu/ROS2_Jazzy_Study/install/send_goal:/home/addinnedu/ROS2_Jazzy_Study/install/pinky_mapf:/home/addinnedu/ROS2_Jazzy_Study/install/my_demo_pkg:/home/addinnedu/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/addinnedu/ROS2_Jazzy_Study/build/traffic_planner
