@@ -1,1 +1,0 @@
-/home/addinnedu/ROS2_Jazzy_Study/src/traffic_planner/launch/traffic_planner.launch.py

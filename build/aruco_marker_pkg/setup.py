@@ -1,1 +1,0 @@
-/home/addinnedu/ROS2_Jazzy_Study/src/aruco_marker_pkg/setup.py

@@ -10,6 +10,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        # ❌ msg 관련 data_files 제거
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -27,10 +28,12 @@ setup(
             'aruco_odom_publisher = aruco_marker_pkg.aruco_odom_publisher:main',
             'multi_aruco_odom_publisher = aruco_marker_pkg.multi_aruco_odom_publisher:main',
             'monitoring_map_gui = aruco_marker_pkg.monitoring_map_gui:main',
+            'monitoring_map_gui_LPF = aruco_marker_pkg.monitoring_map_gui_LPF:main',
             'aruco_test = aruco_marker_pkg.aruco_test:main',
             'monitoring_gui = aruco_marker_pkg.monitoring_gui:main',
             'monitoring_gui_matplot = aruco_marker_pkg.monitoring_gui_matplot:main',
             'qmonitor_state_machine = aruco_marker_pkg.qmonitor_state_machine:main',
+            'LocationManager = aruco_marker_pkg.LocationManager:main',
         ],
     },
 )

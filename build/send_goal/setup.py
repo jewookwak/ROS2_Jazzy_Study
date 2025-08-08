@@ -1,1 +1,0 @@
-/home/addinnedu/ROS2_Jazzy_Study/src/send_goal/setup.py

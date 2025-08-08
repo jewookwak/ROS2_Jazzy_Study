@@ -1,1 +1,0 @@
-/home/addinnedu/ROS2_Jazzy_Study/build/pinky_rmf/ament_cmake_core/pinky_rmfConfig.cmake

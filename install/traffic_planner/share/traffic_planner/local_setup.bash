@@ -1,1 +1,0 @@
-/home/addinnedu/ROS2_Jazzy_Study/build/traffic_planner/ament_cmake_environment_hooks/local_setup.bash

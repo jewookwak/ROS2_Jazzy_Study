@@ -1,1 +1,0 @@
-/home/addinnedu/ROS2_Jazzy_Study/src/my_demo_pkg/setup.py
