@@ -1,25 +1,29 @@
 <?xml version="1.0"?>
-<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>aruco_marker_pkg</name>
   <version>0.0.0</version>
   <description>ArUco marker detection and tracking package with odometry</description>
-  <maintainer email="addinnedu@todo.todo">addinnedu</maintainer>
+  <maintainer email="jewoo2963@gmail.com">addinnedu</maintainer>
   <license>TODO: License declaration</license>
 
-  <!-- Python dependencies -->
+  <!-- Build tools -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Dependencies -->
   <depend>rclpy</depend>
   <depend>std_msgs</depend>
   <depend>geometry_msgs</depend>
   <depend>nav_msgs</depend>
   <depend>tf2_ros</depend>
-  
-  <!-- Python packages (시스템 패키지) -->
+  <depend>aruco_interfaces</depend>  <!-- ✅ 메시지를 참조하므로 추가 -->
+
+  <!-- Python system dependencies -->
   <exec_depend>python3-opencv</exec_depend>
   <exec_depend>python3-numpy</exec_depend>
   <exec_depend>python3-pyqt5</exec_depend>
   <exec_depend>python3-matplotlib</exec_depend>
-  
+
+  <!-- Test dependencies -->
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>
