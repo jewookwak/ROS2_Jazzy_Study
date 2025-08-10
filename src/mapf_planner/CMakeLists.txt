@@ -14,7 +14,6 @@ find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(nav2_msgs REQUIRED)
 find_package(visualization_msgs REQUIRED)
-find_package(mapf_planner REQUIRED)
 
 # include 디렉토리 설정
 include_directories(include)
@@ -39,17 +38,21 @@ add_executable(cbs_planner_node
   src/cbs.cpp
   src/astar.cpp
 )
+
 add_executable(waypoint_follower 
   src/waypoint_follower.cpp
 )
+
 add_executable(tracked_path_publisher 
-src/tracked_path_publisher.cpp
+  src/tracked_path_publisher.cpp
 )
+
 add_executable(cbs_planner_node_test
   src/cbs_planner_node_test.cpp
   src/cbs.cpp
   src/astar.cpp
 )
+
 add_executable(cbs_planner_node_test2
   src/cbs_planner_node_test2.cpp
   src/cbs.cpp
@@ -61,11 +64,13 @@ add_executable(cbs_planner_pose_publisher
   src/cbs.cpp
   src/astar.cpp
 )
+
 add_executable(cbs_planner_node_pose_pub
   src/cbs_planner_node_pose_pub.cpp
   src/cbs.cpp
   src/astar.cpp
 )
+
 # === 의존성 연결 ===
 ament_target_dependencies(astar_node
   rclcpp
@@ -102,10 +107,11 @@ ament_target_dependencies(waypoint_follower
 )
 
 ament_target_dependencies(tracked_path_publisher 
-rclcpp 
-geometry_msgs 
-nav_msgs
+  rclcpp 
+  geometry_msgs 
+  nav_msgs
 )
+
 ament_target_dependencies(cbs_planner_node_test
   rclcpp
   nav_msgs
@@ -114,6 +120,7 @@ ament_target_dependencies(cbs_planner_node_test
   rclcpp_action
   visualization_msgs
 )
+
 ament_target_dependencies(cbs_planner_node_test2
   rclcpp
   nav_msgs
@@ -122,20 +129,21 @@ ament_target_dependencies(cbs_planner_node_test2
   rclcpp_action
   visualization_msgs
 )
+
 ament_target_dependencies(cbs_planner_pose_publisher
   rclcpp
   geometry_msgs
   nav_msgs
   std_msgs
-  mapf_planner
 )
+
 ament_target_dependencies(cbs_planner_node_pose_pub
   rclcpp
   geometry_msgs
   nav_msgs
   std_msgs
-  mapf_planner
 )
+
 # include 디렉토리 설정
 target_include_directories(astar_node PUBLIC include)
 target_include_directories(prioritized_planner_node PUBLIC include)

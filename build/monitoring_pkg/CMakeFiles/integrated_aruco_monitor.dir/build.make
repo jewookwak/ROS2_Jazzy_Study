@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg
+CMAKE_SOURCE_DIR = /home/jewoo/ROS2_Jazzy_Study/src/monitoring_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg
+CMAKE_BINARY_DIR = /home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg
 
 # Include any dependencies generated for this target.
 include CMakeFiles/integrated_aruco_monitor.dir/depend.make
@@ -72,37 +72,37 @@ include CMakeFiles/integrated_aruco_monitor.dir/flags.make
 integrated_aruco_monitor_autogen/timestamp: /usr/lib/qt5/bin/moc
 integrated_aruco_monitor_autogen/timestamp: /usr/lib/qt5/bin/uic
 integrated_aruco_monitor_autogen/timestamp: CMakeFiles/integrated_aruco_monitor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target integrated_aruco_monitor"
-	/usr/bin/cmake -E cmake_autogen /home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg/CMakeFiles/integrated_aruco_monitor_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg/integrated_aruco_monitor_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target integrated_aruco_monitor"
+	/usr/bin/cmake -E cmake_autogen /home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg/CMakeFiles/integrated_aruco_monitor_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg/integrated_aruco_monitor_autogen/timestamp
 
 CMakeFiles/integrated_aruco_monitor.dir/integrated_aruco_monitor_autogen/mocs_compilation.cpp.o: CMakeFiles/integrated_aruco_monitor.dir/flags.make
 CMakeFiles/integrated_aruco_monitor.dir/integrated_aruco_monitor_autogen/mocs_compilation.cpp.o: integrated_aruco_monitor_autogen/mocs_compilation.cpp
 CMakeFiles/integrated_aruco_monitor.dir/integrated_aruco_monitor_autogen/mocs_compilation.cpp.o: CMakeFiles/integrated_aruco_monitor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/integrated_aruco_monitor.dir/integrated_aruco_monitor_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/integrated_aruco_monitor.dir/integrated_aruco_monitor_autogen/mocs_compilation.cpp.o -MF CMakeFiles/integrated_aruco_monitor.dir/integrated_aruco_monitor_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/integrated_aruco_monitor.dir/integrated_aruco_monitor_autogen/mocs_compilation.cpp.o -c /home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg/integrated_aruco_monitor_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/integrated_aruco_monitor.dir/integrated_aruco_monitor_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/integrated_aruco_monitor.dir/integrated_aruco_monitor_autogen/mocs_compilation.cpp.o -MF CMakeFiles/integrated_aruco_monitor.dir/integrated_aruco_monitor_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/integrated_aruco_monitor.dir/integrated_aruco_monitor_autogen/mocs_compilation.cpp.o -c /home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg/integrated_aruco_monitor_autogen/mocs_compilation.cpp
 
 CMakeFiles/integrated_aruco_monitor.dir/integrated_aruco_monitor_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/integrated_aruco_monitor.dir/integrated_aruco_monitor_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg/integrated_aruco_monitor_autogen/mocs_compilation.cpp > CMakeFiles/integrated_aruco_monitor.dir/integrated_aruco_monitor_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg/integrated_aruco_monitor_autogen/mocs_compilation.cpp > CMakeFiles/integrated_aruco_monitor.dir/integrated_aruco_monitor_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/integrated_aruco_monitor.dir/integrated_aruco_monitor_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/integrated_aruco_monitor.dir/integrated_aruco_monitor_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg/integrated_aruco_monitor_autogen/mocs_compilation.cpp -o CMakeFiles/integrated_aruco_monitor.dir/integrated_aruco_monitor_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg/integrated_aruco_monitor_autogen/mocs_compilation.cpp -o CMakeFiles/integrated_aruco_monitor.dir/integrated_aruco_monitor_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.o: CMakeFiles/integrated_aruco_monitor.dir/flags.make
-CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.o: /home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp
+CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.o: /home/jewoo/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp
 CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.o: CMakeFiles/integrated_aruco_monitor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.o -MF CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.o.d -o CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.o -c /home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.o -MF CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.o.d -o CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.o -c /home/jewoo/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp
 
 CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp > CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jewoo/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp > CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.i
 
 CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp -o CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jewoo/ROS2_Jazzy_Study/src/monitoring_pkg/src/monitoring_gui.cpp -o CMakeFiles/integrated_aruco_monitor.dir/src/monitoring_gui.cpp.s
 
 # Object files for target integrated_aruco_monitor
 integrated_aruco_monitor_OBJECTS = \
@@ -301,7 +301,7 @@ integrated_aruco_monitor: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.6.0
 integrated_aruco_monitor: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.6.0
 integrated_aruco_monitor: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.6.0
 integrated_aruco_monitor: CMakeFiles/integrated_aruco_monitor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable integrated_aruco_monitor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable integrated_aruco_monitor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/integrated_aruco_monitor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -313,6 +313,6 @@ CMakeFiles/integrated_aruco_monitor.dir/clean:
 .PHONY : CMakeFiles/integrated_aruco_monitor.dir/clean
 
 CMakeFiles/integrated_aruco_monitor.dir/depend: integrated_aruco_monitor_autogen/timestamp
-	cd /home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg /home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg /home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg /home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg /home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg/CMakeFiles/integrated_aruco_monitor.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jewoo/ROS2_Jazzy_Study/src/monitoring_pkg /home/jewoo/ROS2_Jazzy_Study/src/monitoring_pkg /home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg /home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg /home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg/CMakeFiles/integrated_aruco_monitor.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/integrated_aruco_monitor.dir/depend
 

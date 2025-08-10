@@ -1,8 +1,8 @@
-# Install script for directory: /home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg
+# Install script for directory: /home/jewoo/ROS2_Jazzy_Study/src/monitoring_pkg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/addinnedu/ROS2_Jazzy_Study/install/monitoring_pkg")
+  set(CMAKE_INSTALL_PREFIX "/home/jewoo/ROS2_Jazzy_Study/install/monitoring_pkg")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

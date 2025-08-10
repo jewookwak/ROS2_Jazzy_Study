@@ -1,0 +1,108 @@
+[0.207s] Invoking command in '/home/jewoo/ROS2_Jazzy_Study/build/mapf_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jewoo/ROS2_Jazzy_Study/src/mapf_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jewoo/ROS2_Jazzy_Study/install/mapf_planner
+[0.617s] -- The C compiler identification is GNU 13.3.0
+[0.617s] -- The CXX compiler identification is GNU 13.3.0
+[0.617s] -- Detecting C compiler ABI info
+[0.617s] -- Detecting C compiler ABI info - done
+[0.617s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.617s] -- Detecting C compile features
+[0.617s] -- Detecting C compile features - done
+[0.617s] -- Detecting CXX compiler ABI info
+[0.617s] -- Detecting CXX compiler ABI info - done
+[0.617s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.618s] -- Detecting CXX compile features
+[0.618s] -- Detecting CXX compile features - done
+[0.618s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.618s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.618s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.618s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.618s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.618s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.622s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.633s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.679s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.681s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.733s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.748s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.764s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.807s] -- Found rclcpp_action: 28.1.10 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.832s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.867s] -- Found nav2_msgs: 1.3.7 (/opt/ros/jazzy/share/nav2_msgs/cmake)
+[0.915s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.003s] -- Configuring done (0.8s)
+[1.034s] -- Generating done (0.0s)
+[1.041s] -- Build files have been written to: /home/jewoo/ROS2_Jazzy_Study/build/mapf_planner
+[1.050s] Invoked command in '/home/jewoo/ROS2_Jazzy_Study/build/mapf_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jewoo/ROS2_Jazzy_Study/src/mapf_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jewoo/ROS2_Jazzy_Study/install/mapf_planner
+[1.051s] Invoking command in '/home/jewoo/ROS2_Jazzy_Study/build/mapf_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jewoo/ROS2_Jazzy_Study/build/mapf_planner -- -j32 -l32
+[1.091s] [  3%] [32mBuilding CXX object CMakeFiles/tracked_path_publisher.dir/src/tracked_path_publisher.cpp.o[0m
+[1.092s] [  9%] [32mBuilding CXX object CMakeFiles/waypoint_follower.dir/src/waypoint_follower.cpp.o[0m
+[1.092s] [  9%] [32mBuilding CXX object CMakeFiles/cbs_planner_node_test2.dir/src/cbs.cpp.o[0m
+[1.092s] [ 12%] [32mBuilding CXX object CMakeFiles/cbs_planner_node.dir/src/cbs_planner_node.cpp.o[0m
+[1.092s] [ 15%] [32mBuilding CXX object CMakeFiles/prioritized_planner_node.dir/src/prioritized_planner_node.cpp.o[0m
+[1.092s] [ 18%] [32mBuilding CXX object CMakeFiles/cbs_planner_pose_publisher.dir/src/cbs_planner_pose_publisher.cpp.o[0m
+[1.092s] [ 21%] [32mBuilding CXX object CMakeFiles/cbs_planner_node_test2.dir/src/cbs_planner_node_test2.cpp.o[0m
+[1.092s] [ 25%] [32mBuilding CXX object CMakeFiles/grid_map_publisher.dir/src/grid_map_publisher.cpp.o[0m
+[1.092s] [ 28%] [32mBuilding CXX object CMakeFiles/cbs_planner_pose_publisher.dir/src/astar.cpp.o[0m
+[1.096s] [ 31%] [32mBuilding CXX object CMakeFiles/astar_node.dir/src/astar_node.cpp.o[0m
+[1.096s] [ 34%] [32mBuilding CXX object CMakeFiles/prioritized_planner_node.dir/src/astar.cpp.o[0m
+[1.096s] [ 37%] [32mBuilding CXX object CMakeFiles/cbs_planner_node.dir/src/astar.cpp.o[0m
+[1.096s] [ 40%] [32mBuilding CXX object CMakeFiles/cbs_planner_node_pose_pub.dir/src/cbs_planner_node_pose_pub.cpp.o[0m
+[1.097s] [ 43%] [32mBuilding CXX object CMakeFiles/cbs_planner_node.dir/src/cbs.cpp.o[0m
+[1.097s] [ 46%] [32mBuilding CXX object CMakeFiles/cbs_planner_node_pose_pub.dir/src/astar.cpp.o[0m
+[1.097s] [ 53%] [32mBuilding CXX object CMakeFiles/cbs_planner_node_test2.dir/src/astar.cpp.o[0m
+[1.097s] [ 53%] [32mBuilding CXX object CMakeFiles/astar_node.dir/src/astar.cpp.o[0m
+[1.097s] [ 56%] [32mBuilding CXX object CMakeFiles/cbs_planner_node_test.dir/src/cbs_planner_node_test.cpp.o[0m
+[1.097s] [ 59%] [32mBuilding CXX object CMakeFiles/cbs_planner_pose_publisher.dir/src/cbs.cpp.o[0m
+[1.097s] [ 65%] [32mBuilding CXX object CMakeFiles/cbs_planner_node_test.dir/src/astar.cpp.o[0m
+[1.097s] [ 65%] [32mBuilding CXX object CMakeFiles/cbs_planner_node_pose_pub.dir/src/cbs.cpp.o[0m
+[1.098s] [ 68%] [32mBuilding CXX object CMakeFiles/cbs_planner_node_test.dir/src/cbs.cpp.o[0m
+[4.174s] [ 71%] [32m[1mLinking CXX executable cbs_planner_node_test2[0m
+[4.382s] [ 71%] Built target cbs_planner_node_test2
+[4.932s] [ 75%] [32m[1mLinking CXX executable grid_map_publisher[0m
+[5.041s] [ 75%] Built target grid_map_publisher
+[5.136s] [ 78%] [32m[1mLinking CXX executable cbs_planner_node[0m
+[5.286s] [ 78%] Built target cbs_planner_node
+[5.691s] [ 81%] [32m[1mLinking CXX executable cbs_planner_node_pose_pub[0m
+[5.717s] [ 84%] [32m[1mLinking CXX executable cbs_planner_pose_publisher[0m
+[5.940s] [ 84%] Built target cbs_planner_node_pose_pub
+[5.956s] [ 84%] Built target cbs_planner_pose_publisher
+[6.250s] [ 87%] [32m[1mLinking CXX executable waypoint_follower[0m
+[6.461s] [ 87%] Built target waypoint_follower
+[6.698s] [ 90%] [32m[1mLinking CXX executable tracked_path_publisher[0m
+[6.728s] [ 93%] [32m[1mLinking CXX executable cbs_planner_node_test[0m
+[6.874s] [ 93%] Built target tracked_path_publisher
+[6.995s] [ 93%] Built target cbs_planner_node_test
+[7.183s] [ 96%] [32m[1mLinking CXX executable prioritized_planner_node[0m
+[7.358s] [ 96%] Built target prioritized_planner_node
+[7.411s] [100%] [32m[1mLinking CXX executable astar_node[0m
+[7.574s] [100%] Built target astar_node
+[7.584s] Invoked command in '/home/jewoo/ROS2_Jazzy_Study/build/mapf_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jewoo/ROS2_Jazzy_Study/build/mapf_planner -- -j32 -l32
+[7.585s] Invoking command in '/home/jewoo/ROS2_Jazzy_Study/build/mapf_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jewoo/ROS2_Jazzy_Study/build/mapf_planner
+[7.589s] -- Install configuration: ""
+[7.589s] -- Execute custom install script
+[7.589s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/lib/mapf_planner/astar_node
+[7.595s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/lib/mapf_planner/grid_map_publisher
+[7.600s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/lib/mapf_planner/prioritized_planner_node
+[7.604s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/lib/mapf_planner/cbs_planner_node
+[7.608s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/lib/mapf_planner/waypoint_follower
+[7.612s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/lib/mapf_planner/tracked_path_publisher
+[7.619s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/lib/mapf_planner/cbs_planner_node_test
+[7.625s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/lib/mapf_planner/cbs_planner_node_test2
+[7.630s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/lib/mapf_planner/cbs_planner_pose_publisher
+[7.633s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/lib/mapf_planner/cbs_planner_node_pose_pub
+[7.638s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner//launch/multi_node_launch.py
+[7.643s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/share/ament_index/resource_index/package_run_dependencies/mapf_planner
+[7.649s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/share/ament_index/resource_index/parent_prefix_path/mapf_planner
+[7.653s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/environment/ament_prefix_path.sh
+[7.659s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/environment/ament_prefix_path.dsv
+[7.663s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/environment/path.sh
+[7.669s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/environment/path.dsv
+[7.674s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/local_setup.bash
+[7.680s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/local_setup.sh
+[7.684s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/local_setup.zsh
+[7.690s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/local_setup.dsv
+[7.695s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/package.dsv
+[7.700s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/share/ament_index/resource_index/packages/mapf_planner
+[7.704s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/cmake/mapf_plannerConfig.cmake
+[7.710s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/cmake/mapf_plannerConfig-version.cmake
+[7.714s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/mapf_planner/share/mapf_planner/package.xml
+[7.722s] Invoked command in '/home/jewoo/ROS2_Jazzy_Study/build/mapf_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jewoo/ROS2_Jazzy_Study/build/mapf_planner

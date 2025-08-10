@@ -1,0 +1,28 @@
+[0.938s] Invoking command in '/home/jewoo/ROS2_Jazzy_Study/build/pinky_mapf': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jewoo/ROS2_Jazzy_Study/build/pinky_mapf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jewoo/ROS2_Jazzy_Study/build/pinky_mapf/build --no-deps symlink_data
+[1.085s] running develop
+[1.271s] running egg_info
+[1.271s] creating pinky_mapf.egg-info
+[1.289s] writing pinky_mapf.egg-info/PKG-INFO
+[1.290s] writing dependency_links to pinky_mapf.egg-info/dependency_links.txt
+[1.290s] writing entry points to pinky_mapf.egg-info/entry_points.txt
+[1.290s] writing requirements to pinky_mapf.egg-info/requires.txt
+[1.290s] writing top-level names to pinky_mapf.egg-info/top_level.txt
+[1.290s] writing manifest file 'pinky_mapf.egg-info/SOURCES.txt'
+[1.329s] reading manifest file 'pinky_mapf.egg-info/SOURCES.txt'
+[1.329s] writing manifest file 'pinky_mapf.egg-info/SOURCES.txt'
+[1.350s] running build_ext
+[1.350s] Creating /home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages/pinky-mapf.egg-link (link to .)
+[1.350s] Installing follow_waypoints_client script to /home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/lib/pinky_mapf
+[1.351s] Installing goal_point script to /home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/lib/pinky_mapf
+[1.351s] Installing goal_point1 script to /home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/lib/pinky_mapf
+[1.351s] Installing goal_point2 script to /home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/lib/pinky_mapf
+[1.351s] Installing goal_point3 script to /home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/lib/pinky_mapf
+[1.351s] 
+[1.351s] Installed /home/jewoo/ROS2_Jazzy_Study/build/pinky_mapf
+[1.351s] running symlink_data
+[1.351s] creating /home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/share/ament_index
+[1.351s] creating /home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/share/ament_index/resource_index
+[1.351s] creating /home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/share/ament_index/resource_index/packages
+[1.351s] symbolically linking /home/jewoo/ROS2_Jazzy_Study/build/pinky_mapf/resource/pinky_mapf -> /home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/share/ament_index/resource_index/packages
+[1.351s] symbolically linking /home/jewoo/ROS2_Jazzy_Study/build/pinky_mapf/package.xml -> /home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/share/pinky_mapf
+[1.418s] Invoked command in '/home/jewoo/ROS2_Jazzy_Study/build/pinky_mapf' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jewoo/ROS2_Jazzy_Study/build/pinky_mapf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jewoo/ROS2_Jazzy_Study/build/pinky_mapf/build --no-deps symlink_data

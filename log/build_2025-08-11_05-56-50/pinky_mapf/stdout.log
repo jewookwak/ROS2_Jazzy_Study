@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating pinky_mapf.egg-info
+writing pinky_mapf.egg-info/PKG-INFO
+writing dependency_links to pinky_mapf.egg-info/dependency_links.txt
+writing entry points to pinky_mapf.egg-info/entry_points.txt
+writing requirements to pinky_mapf.egg-info/requires.txt
+writing top-level names to pinky_mapf.egg-info/top_level.txt
+writing manifest file 'pinky_mapf.egg-info/SOURCES.txt'
+reading manifest file 'pinky_mapf.egg-info/SOURCES.txt'
+writing manifest file 'pinky_mapf.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/lib/python3.12/site-packages/pinky-mapf.egg-link (link to .)
+Installing follow_waypoints_client script to /home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/lib/pinky_mapf
+Installing goal_point script to /home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/lib/pinky_mapf
+Installing goal_point1 script to /home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/lib/pinky_mapf
+Installing goal_point2 script to /home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/lib/pinky_mapf
+Installing goal_point3 script to /home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/lib/pinky_mapf
+
+Installed /home/jewoo/ROS2_Jazzy_Study/build/pinky_mapf
+running symlink_data
+creating /home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/share/ament_index
+creating /home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/share/ament_index/resource_index
+creating /home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/share/ament_index/resource_index/packages
+symbolically linking /home/jewoo/ROS2_Jazzy_Study/build/pinky_mapf/resource/pinky_mapf -> /home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/share/ament_index/resource_index/packages
+symbolically linking /home/jewoo/ROS2_Jazzy_Study/build/pinky_mapf/package.xml -> /home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf/share/pinky_mapf

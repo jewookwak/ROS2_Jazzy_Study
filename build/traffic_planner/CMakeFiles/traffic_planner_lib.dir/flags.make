@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/addinnedu/ROS2_Jazzy_Study/src/traffic_planner/include
+CXX_INCLUDES = -I/home/jewoo/ROS2_Jazzy_Study/src/traffic_planner/include
 
 CXX_FLAGS = 
 

@@ -1,1 +1,1 @@
-/home/addinnedu/ROS2_Jazzy_Study/build/pinky_rmf/ament_cmake_environment_hooks/local_setup.sh
+/home/jewoo/ROS2_Jazzy_Study/build/pinky_rmf/ament_cmake_environment_hooks/local_setup.sh

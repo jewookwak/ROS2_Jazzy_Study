@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pid-controller-node
+Version: 0.0.1
+Summary: PID velocity filtering node using odometry feedback
+Maintainer: pinky
+Maintainer-email: pinky@todo.todo
+License: MIT

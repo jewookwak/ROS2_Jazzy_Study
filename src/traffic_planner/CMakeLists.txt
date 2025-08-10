@@ -13,22 +13,43 @@ add_library(traffic_planner_lib
   src/TrafficPlanner.cpp
 )
 
-# TrafficPlannerNode 라이브러리 (ROS2 의존적)
+# TrafficPlannerNode 라이브러리 (ROS2 의존적) - 원본
 add_library(traffic_planner_node_lib
   src/TrafficPlannerNode.cpp
 )
 
-# 실행 파일
+# TrafficPlannerNode02 라이브러리 (ROS2 의존적) - 20cm 해상도 버전
+add_library(traffic_planner_node02_lib
+  src/TrafficPlannerNode02.cpp
+)
+
+# 실행 파일 - 원본 (10cm 해상도)
 add_executable(traffic_path_planner
+  src/main.cpp
+)
+
+# 실행 파일 - 20cm 해상도 버전
+add_executable(traffic_path_planner02
   src/main.cpp
 )
 
 # 라이브러리 링크
 target_link_libraries(traffic_planner_node_lib traffic_planner_lib)
+target_link_libraries(traffic_planner_node02_lib traffic_planner_lib)
 target_link_libraries(traffic_path_planner traffic_planner_node_lib)
+target_link_libraries(traffic_path_planner02 traffic_planner_node02_lib)
 
-# ROS2 의존성 (노드 라이브러리와 실행 파일에만 적용)
+# main.cpp에서 어떤 헤더를 사용할지 컴파일 시점에 정의
+target_compile_definitions(traffic_path_planner02 PRIVATE USE_NODE02)
+
+# ROS2 의존성
 ament_target_dependencies(traffic_planner_node_lib
+  rclcpp
+  geometry_msgs
+  nav_msgs
+)
+
+ament_target_dependencies(traffic_planner_node02_lib
   rclcpp
   geometry_msgs
   nav_msgs
@@ -40,11 +61,19 @@ ament_target_dependencies(traffic_path_planner
   nav_msgs
 )
 
+ament_target_dependencies(traffic_path_planner02
+  rclcpp
+  geometry_msgs
+  nav_msgs
+)
+
 # 설치
 install(TARGETS 
   traffic_path_planner 
+  traffic_path_planner02
   traffic_planner_lib 
   traffic_planner_node_lib
+  traffic_planner_node02_lib
   DESTINATION lib/${PROJECT_NAME}
 )
 

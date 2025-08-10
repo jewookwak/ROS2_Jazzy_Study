@@ -1,0 +1,67 @@
+[0.507s] Invoking command in '/home/jewoo/ROS2_Jazzy_Study/build/pinky_rmf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jewoo/ROS2_Jazzy_Study/src/pinky_rmf -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jewoo/ROS2_Jazzy_Study/install/pinky_rmf
+[0.611s] -- The C compiler identification is GNU 13.3.0
+[0.612s] -- The CXX compiler identification is GNU 13.3.0
+[0.612s] -- Detecting C compiler ABI info
+[0.652s] -- Detecting C compiler ABI info - done
+[0.660s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.660s] -- Detecting C compile features
+[0.660s] -- Detecting C compile features - done
+[0.667s] -- Detecting CXX compiler ABI info
+[0.735s] -- Detecting CXX compiler ABI info - done
+[0.740s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.740s] -- Detecting CXX compile features
+[0.740s] -- Detecting CXX compile features - done
+[0.742s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.837s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.882s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.906s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.943s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.951s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.960s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.971s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.014s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.016s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.074s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.099s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.124s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.213s] -- Found rclcpp_action: 28.1.10 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.268s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.285s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.304s] -- Found nav2_msgs: 1.3.7 (/opt/ros/jazzy/share/nav2_msgs/cmake)
+[1.447s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.578s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.579s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jewoo/ROS2_Jazzy_Study/src/pinky_rmf/include>
+[1.580s] -- Configured cppcheck exclude dirs and/or files: 
+[1.580s] -- Added test 'lint_cmake' to check CMake code style
+[1.580s] -- Added test 'uncrustify' to check C / C++ code style
+[1.580s] -- Configured uncrustify additional arguments: 
+[1.581s] -- Added test 'xmllint' to check XML markup files
+[1.583s] -- Configuring done (1.1s)
+[1.611s] -- Generating done (0.0s)
+[1.614s] -- Build files have been written to: /home/jewoo/ROS2_Jazzy_Study/build/pinky_rmf
+[1.643s] Invoked command in '/home/jewoo/ROS2_Jazzy_Study/build/pinky_rmf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jewoo/ROS2_Jazzy_Study/src/pinky_rmf -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jewoo/ROS2_Jazzy_Study/install/pinky_rmf
+[1.644s] Invoking command in '/home/jewoo/ROS2_Jazzy_Study/build/pinky_rmf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jewoo/ROS2_Jazzy_Study/build/pinky_rmf -- -j32 -l32
+[1.697s] [ 50%] [32mBuilding CXX object CMakeFiles/goal_pose_listener.dir/src/goal_pose_listener.cpp.o[0m
+[7.001s] [100%] [32m[1mLinking CXX executable goal_pose_listener[0m
+[7.195s] [100%] Built target goal_pose_listener
+[7.203s] Invoked command in '/home/jewoo/ROS2_Jazzy_Study/build/pinky_rmf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jewoo/ROS2_Jazzy_Study/build/pinky_rmf -- -j32 -l32
+[7.212s] Invoking command in '/home/jewoo/ROS2_Jazzy_Study/build/pinky_rmf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jewoo/ROS2_Jazzy_Study/build/pinky_rmf
+[7.217s] -- Install configuration: ""
+[7.217s] -- Execute custom install script
+[7.217s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/pinky_rmf/lib/pinky_rmf/goal_pose_listener
+[7.226s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/pinky_rmf/share/ament_index/resource_index/package_run_dependencies/pinky_rmf
+[7.232s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/pinky_rmf/share/ament_index/resource_index/parent_prefix_path/pinky_rmf
+[7.240s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/environment/ament_prefix_path.sh
+[7.247s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/environment/ament_prefix_path.dsv
+[7.253s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/environment/path.sh
+[7.261s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/environment/path.dsv
+[7.268s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/local_setup.bash
+[7.275s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/local_setup.sh
+[7.281s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/local_setup.zsh
+[7.289s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/local_setup.dsv
+[7.297s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/package.dsv
+[7.304s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/pinky_rmf/share/ament_index/resource_index/packages/pinky_rmf
+[7.311s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/cmake/pinky_rmfConfig.cmake
+[7.317s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/cmake/pinky_rmfConfig-version.cmake
+[7.325s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/pinky_rmf/share/pinky_rmf/package.xml
+[7.331s] Invoked command in '/home/jewoo/ROS2_Jazzy_Study/build/pinky_rmf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jewoo/ROS2_Jazzy_Study/build/pinky_rmf

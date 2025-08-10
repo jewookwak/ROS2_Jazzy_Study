@@ -1,0 +1,9 @@
+[console_scripts]
+control_rotate = controller_tutorials.control_rotate:main
+monitor_for_move_turtle = controller_tutorials.monitor_for_move_turtle:main
+move_turtle = controller_tutorials.move_turtle:main
+move_turtle_state_machine = controller_tutorials.move_turtle_state_machine:main
+pose_dual_controller = controller_tutorials.pose_dual_controller:main
+qmonitor_for_pose_dual_controller = controller_tutorials.qmonitor_for_pose_dual_controller:main
+qmonitor_state_machine = controller_tutorials.qmonitor_state_machine:main
+simple_rotate = controller_tutorials.simple_rotate:main

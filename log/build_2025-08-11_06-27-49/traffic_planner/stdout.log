@@ -1,0 +1,53 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/jewoo/ROS2_Jazzy_Study/build/traffic_planner
+[ 20%] Built target traffic_planner_lib
+[ 30%] [32mBuilding CXX object CMakeFiles/traffic_planner_node02_lib.dir/src/TrafficPlannerNode02.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/traffic_planner_node_lib.dir/src/TrafficPlannerNode.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libtraffic_planner_node_lib.a[0m
+[ 60%] [32m[1mLinking CXX static library libtraffic_planner_node02_lib.a[0m
+[ 60%] Built target traffic_planner_node_lib
+[ 60%] Built target traffic_planner_node02_lib
+[ 70%] [32mBuilding CXX object CMakeFiles/traffic_path_planner.dir/src/main.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/traffic_path_planner02.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable traffic_path_planner02[0m
+[100%] [32m[1mLinking CXX executable traffic_path_planner[0m
+[100%] Built target traffic_path_planner
+[100%] Built target traffic_path_planner02
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/lib/traffic_planner/traffic_path_planner
+-- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/lib/traffic_planner/traffic_path_planner02
+-- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/lib/traffic_planner/libtraffic_planner_lib.a
+-- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/lib/traffic_planner/libtraffic_planner_node_lib.a
+-- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/lib/traffic_planner/libtraffic_planner_node02_lib.a
+-- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/include//traffic_planner/TrafficPlanner.hpp
+-- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/include//traffic_planner/TrafficPlannerNode.hpp
+-- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/include//traffic_planner/TrafficPlannerNode02.hpp
+-- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/launch//traffic_planner.launch.py
+-- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/ament_index/resource_index/package_run_dependencies/traffic_planner
+-- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/ament_index/resource_index/parent_prefix_path/traffic_planner
+-- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/environment/path.sh
+-- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/environment/path.dsv
+-- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/local_setup.bash
+-- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/local_setup.sh
+-- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/local_setup.zsh
+-- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/local_setup.dsv
+-- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/package.dsv
+-- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/ament_index/resource_index/packages/traffic_planner
+-- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/cmake/traffic_plannerConfig.cmake
+-- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/cmake/traffic_plannerConfig-version.cmake
+-- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/package.xml

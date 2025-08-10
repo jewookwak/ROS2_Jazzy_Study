@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/addinnedu/ROS2_Jazzy_Study/src/pinky_rmf
+CMAKE_SOURCE_DIR = /home/jewoo/ROS2_Jazzy_Study/src/pinky_rmf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/addinnedu/ROS2_Jazzy_Study/build/pinky_rmf
+CMAKE_BINARY_DIR = /home/jewoo/ROS2_Jazzy_Study/build/pinky_rmf
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/addinnedu/ROS2_Jazzy_Study/build/pinky_rmf && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/addinnedu/ROS2_Jazzy_Study/src/pinky_rmf /home/addinnedu/ROS2_Jazzy_Study/src/pinky_rmf /home/addinnedu/ROS2_Jazzy_Study/build/pinky_rmf /home/addinnedu/ROS2_Jazzy_Study/build/pinky_rmf /home/addinnedu/ROS2_Jazzy_Study/build/pinky_rmf/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jewoo/ROS2_Jazzy_Study/build/pinky_rmf && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jewoo/ROS2_Jazzy_Study/src/pinky_rmf /home/jewoo/ROS2_Jazzy_Study/src/pinky_rmf /home/jewoo/ROS2_Jazzy_Study/build/pinky_rmf /home/jewoo/ROS2_Jazzy_Study/build/pinky_rmf /home/jewoo/ROS2_Jazzy_Study/build/pinky_rmf/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

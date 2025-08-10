@@ -1,0 +1,9 @@
+source;share/controller_tutorials/hook/pythonpath.ps1
+source;share/controller_tutorials/hook/pythonpath.dsv
+source;share/controller_tutorials/hook/pythonpath.sh
+source;share/controller_tutorials/hook/ament_prefix_path.ps1
+source;share/controller_tutorials/hook/ament_prefix_path.dsv
+source;share/controller_tutorials/hook/ament_prefix_path.sh
+source;../../build/controller_tutorials/share/controller_tutorials/hook/pythonpath_develop.ps1
+source;../../build/controller_tutorials/share/controller_tutorials/hook/pythonpath_develop.dsv
+source;../../build/controller_tutorials/share/controller_tutorials/hook/pythonpath_develop.sh

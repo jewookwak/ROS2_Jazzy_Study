@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-406747d9a75eee86ad0f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "traffic_planner",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "traffic_path_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traffic_path_planner-3df5cb1b4e3ba0881539.json",
+					"name" : "traffic_path_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traffic_path_planner02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traffic_path_planner02-72b69b2e91273397baa5.json",
+					"name" : "traffic_path_planner02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traffic_planner_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traffic_planner_lib-23682a3a0dd8693c92b8.json",
+					"name" : "traffic_planner_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traffic_planner_node02_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traffic_planner_node02_lib-3ba5f3991728585a7545.json",
+					"name" : "traffic_planner_node02_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traffic_planner_node_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traffic_planner_node_lib-9be90141c6fe7dd42b20.json",
+					"name" : "traffic_planner_node_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "traffic_planner_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-traffic_planner_uninstall-a07e979f5a206084fc13.json",
+					"name" : "traffic_planner_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d36f9c91d113e20df235.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jewoo/ROS2_Jazzy_Study/build/traffic_planner",
+		"source" : "/home/jewoo/ROS2_Jazzy_Study/src/traffic_planner"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

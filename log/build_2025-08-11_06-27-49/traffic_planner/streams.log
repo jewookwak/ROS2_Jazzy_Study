@@ -1,0 +1,59 @@
+[0.005s] Invoking command in '/home/jewoo/ROS2_Jazzy_Study/build/traffic_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jewoo/ROS2_Jazzy_Study/install/send_goal:/home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf:/home/jewoo/ROS2_Jazzy_Study/install/pid_controller_node:/home/jewoo/ROS2_Jazzy_Study/install/my_demo_pkg:/home/jewoo/ROS2_Jazzy_Study/install/controller_tutorials:/home/jewoo/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jewoo/ROS2_Jazzy_Study/src/traffic_planner -DCMAKE_INSTALL_PREFIX=/home/jewoo/ROS2_Jazzy_Study/install/traffic_planner
+[0.014s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.150s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.154s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.167s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.171s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.176s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.182s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.211s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.211s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.253s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.294s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.368s] -- Configuring done (0.4s)
+[0.377s] -- Generating done (0.0s)
+[0.380s] -- Build files have been written to: /home/jewoo/ROS2_Jazzy_Study/build/traffic_planner
+[0.385s] Invoked command in '/home/jewoo/ROS2_Jazzy_Study/build/traffic_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jewoo/ROS2_Jazzy_Study/install/send_goal:/home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf:/home/jewoo/ROS2_Jazzy_Study/install/pid_controller_node:/home/jewoo/ROS2_Jazzy_Study/install/my_demo_pkg:/home/jewoo/ROS2_Jazzy_Study/install/controller_tutorials:/home/jewoo/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/jewoo/ROS2_Jazzy_Study/src/traffic_planner -DCMAKE_INSTALL_PREFIX=/home/jewoo/ROS2_Jazzy_Study/install/traffic_planner
+[0.385s] Invoking command in '/home/jewoo/ROS2_Jazzy_Study/build/traffic_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jewoo/ROS2_Jazzy_Study/install/send_goal:/home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf:/home/jewoo/ROS2_Jazzy_Study/install/pid_controller_node:/home/jewoo/ROS2_Jazzy_Study/install/my_demo_pkg:/home/jewoo/ROS2_Jazzy_Study/install/controller_tutorials:/home/jewoo/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jewoo/ROS2_Jazzy_Study/build/traffic_planner -- -j32 -l32
+[0.432s] [ 20%] Built target traffic_planner_lib
+[0.457s] [ 30%] [32mBuilding CXX object CMakeFiles/traffic_planner_node02_lib.dir/src/TrafficPlannerNode02.cpp.o[0m
+[0.471s] [ 40%] [32mBuilding CXX object CMakeFiles/traffic_planner_node_lib.dir/src/TrafficPlannerNode.cpp.o[0m
+[4.232s] [ 50%] [32m[1mLinking CXX static library libtraffic_planner_node_lib.a[0m
+[4.242s] [ 60%] [32m[1mLinking CXX static library libtraffic_planner_node02_lib.a[0m
+[4.305s] [ 60%] Built target traffic_planner_node_lib
+[4.313s] [ 60%] Built target traffic_planner_node02_lib
+[4.322s] [ 70%] [32mBuilding CXX object CMakeFiles/traffic_path_planner.dir/src/main.cpp.o[0m
+[4.324s] [ 80%] [32mBuilding CXX object CMakeFiles/traffic_path_planner02.dir/src/main.cpp.o[0m
+[5.603s] [100%] [32m[1mLinking CXX executable traffic_path_planner02[0m
+[5.603s] [100%] [32m[1mLinking CXX executable traffic_path_planner[0m
+[5.762s] [100%] Built target traffic_path_planner
+[5.762s] [100%] Built target traffic_path_planner02
+[5.770s] Invoked command in '/home/jewoo/ROS2_Jazzy_Study/build/traffic_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jewoo/ROS2_Jazzy_Study/install/send_goal:/home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf:/home/jewoo/ROS2_Jazzy_Study/install/pid_controller_node:/home/jewoo/ROS2_Jazzy_Study/install/my_demo_pkg:/home/jewoo/ROS2_Jazzy_Study/install/controller_tutorials:/home/jewoo/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/jewoo/ROS2_Jazzy_Study/build/traffic_planner -- -j32 -l32
+[5.777s] Invoking command in '/home/jewoo/ROS2_Jazzy_Study/build/traffic_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jewoo/ROS2_Jazzy_Study/install/send_goal:/home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf:/home/jewoo/ROS2_Jazzy_Study/install/pid_controller_node:/home/jewoo/ROS2_Jazzy_Study/install/my_demo_pkg:/home/jewoo/ROS2_Jazzy_Study/install/controller_tutorials:/home/jewoo/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jewoo/ROS2_Jazzy_Study/build/traffic_planner
+[5.783s] -- Install configuration: ""
+[5.783s] -- Execute custom install script
+[5.783s] -- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/lib/traffic_planner/traffic_path_planner
+[5.783s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/lib/traffic_planner/traffic_path_planner02
+[5.788s] -- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/lib/traffic_planner/libtraffic_planner_lib.a
+[5.788s] -- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/lib/traffic_planner/libtraffic_planner_node_lib.a
+[5.788s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/lib/traffic_planner/libtraffic_planner_node02_lib.a
+[5.794s] -- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/include//traffic_planner/TrafficPlanner.hpp
+[5.794s] -- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/include//traffic_planner/TrafficPlannerNode.hpp
+[5.794s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/include//traffic_planner/TrafficPlannerNode02.hpp
+[5.800s] -- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/launch//traffic_planner.launch.py
+[5.800s] -- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/ament_index/resource_index/package_run_dependencies/traffic_planner
+[5.800s] -- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/ament_index/resource_index/parent_prefix_path/traffic_planner
+[5.800s] -- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/environment/ament_prefix_path.sh
+[5.800s] -- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/environment/ament_prefix_path.dsv
+[5.800s] -- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/environment/path.sh
+[5.800s] -- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/environment/path.dsv
+[5.800s] -- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/local_setup.bash
+[5.800s] -- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/local_setup.sh
+[5.800s] -- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/local_setup.zsh
+[5.800s] -- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/local_setup.dsv
+[5.801s] -- Symlinking: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/package.dsv
+[5.805s] -- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/ament_index/resource_index/packages/traffic_planner
+[5.805s] -- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/cmake/traffic_plannerConfig.cmake
+[5.805s] -- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/cmake/traffic_plannerConfig-version.cmake
+[5.805s] -- Up-to-date symlink: /home/jewoo/ROS2_Jazzy_Study/install/traffic_planner/share/traffic_planner/package.xml
+[5.806s] Invoked command in '/home/jewoo/ROS2_Jazzy_Study/build/traffic_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jewoo/ROS2_Jazzy_Study/install/send_goal:/home/jewoo/ROS2_Jazzy_Study/install/pinky_mapf:/home/jewoo/ROS2_Jazzy_Study/install/pid_controller_node:/home/jewoo/ROS2_Jazzy_Study/install/my_demo_pkg:/home/jewoo/ROS2_Jazzy_Study/install/controller_tutorials:/home/jewoo/ROS2_Jazzy_Study/install/aruco_marker_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/jewoo/ROS2_Jazzy_Study/build/traffic_planner

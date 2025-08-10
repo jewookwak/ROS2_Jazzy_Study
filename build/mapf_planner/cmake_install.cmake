@@ -1,8 +1,8 @@
-# Install script for directory: /home/addinnedu/ROS2_Jazzy_Study/src/mapf_planner
+# Install script for directory: /home/jewoo/ROS2_Jazzy_Study/src/mapf_planner
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/addinnedu/ROS2_Jazzy_Study/install/mapf_planner")
+  set(CMAKE_INSTALL_PREFIX "/home/jewoo/ROS2_Jazzy_Study/install/mapf_planner")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/addinnedu/ROS2_Jazzy_Study/build/mapf_planner/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/jewoo/ROS2_Jazzy_Study/build/mapf_planner/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/addinnedu/ROS2_Jazzy_Study/build/mapf_planner/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jewoo/ROS2_Jazzy_Study/build/mapf_planner/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

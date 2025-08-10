@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating pid_controller_node.egg-info
+writing pid_controller_node.egg-info/PKG-INFO
+writing dependency_links to pid_controller_node.egg-info/dependency_links.txt
+writing entry points to pid_controller_node.egg-info/entry_points.txt
+writing requirements to pid_controller_node.egg-info/requires.txt
+writing top-level names to pid_controller_node.egg-info/top_level.txt
+writing manifest file 'pid_controller_node.egg-info/SOURCES.txt'
+reading manifest file 'pid_controller_node.egg-info/SOURCES.txt'
+writing manifest file 'pid_controller_node.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jewoo/ROS2_Jazzy_Study/install/pid_controller_node/lib/python3.12/site-packages/pid-controller-node.egg-link (link to .)
+Installing move_to_goal script to /home/jewoo/ROS2_Jazzy_Study/install/pid_controller_node/lib/pid_controller_node
+Installing move_to_goal_pid script to /home/jewoo/ROS2_Jazzy_Study/install/pid_controller_node/lib/pid_controller_node
+Installing move_to_goal_tuning script to /home/jewoo/ROS2_Jazzy_Study/install/pid_controller_node/lib/pid_controller_node
+Installing pid_velocity_filter_node script to /home/jewoo/ROS2_Jazzy_Study/install/pid_controller_node/lib/pid_controller_node
+
+Installed /home/jewoo/ROS2_Jazzy_Study/build/pid_controller_node
+running symlink_data
+creating /home/jewoo/ROS2_Jazzy_Study/install/pid_controller_node/share/ament_index
+creating /home/jewoo/ROS2_Jazzy_Study/install/pid_controller_node/share/ament_index/resource_index
+creating /home/jewoo/ROS2_Jazzy_Study/install/pid_controller_node/share/ament_index/resource_index/packages
+symbolically linking /home/jewoo/ROS2_Jazzy_Study/build/pid_controller_node/resource/pid_controller_node -> /home/jewoo/ROS2_Jazzy_Study/install/pid_controller_node/share/ament_index/resource_index/packages
+symbolically linking /home/jewoo/ROS2_Jazzy_Study/build/pid_controller_node/package.xml -> /home/jewoo/ROS2_Jazzy_Study/install/pid_controller_node/share/pid_controller_node

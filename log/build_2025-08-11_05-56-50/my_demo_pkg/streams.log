@@ -1,0 +1,21 @@
+[0.886s] Invoking command in '/home/jewoo/ROS2_Jazzy_Study/build/my_demo_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jewoo/ROS2_Jazzy_Study/build/my_demo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jewoo/ROS2_Jazzy_Study/install/my_demo_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jewoo/ROS2_Jazzy_Study/build/my_demo_pkg/build --no-deps symlink_data
+[1.036s] running develop
+[1.150s] running egg_info
+[1.150s] creating my_demo_pkg.egg-info
+[1.161s] writing my_demo_pkg.egg-info/PKG-INFO
+[1.161s] writing dependency_links to my_demo_pkg.egg-info/dependency_links.txt
+[1.161s] writing entry points to my_demo_pkg.egg-info/entry_points.txt
+[1.161s] writing requirements to my_demo_pkg.egg-info/requires.txt
+[1.161s] writing top-level names to my_demo_pkg.egg-info/top_level.txt
+[1.162s] writing manifest file 'my_demo_pkg.egg-info/SOURCES.txt'
+[1.191s] reading manifest file 'my_demo_pkg.egg-info/SOURCES.txt'
+[1.192s] writing manifest file 'my_demo_pkg.egg-info/SOURCES.txt'
+[1.209s] running build_ext
+[1.210s] Creating /home/jewoo/ROS2_Jazzy_Study/install/my_demo_pkg/lib/python3.12/site-packages/my-demo-pkg.egg-link (link to .)
+[1.210s] Installing talker1 script to /home/jewoo/ROS2_Jazzy_Study/install/my_demo_pkg/lib/my_demo_pkg
+[1.210s] Installing talker2 script to /home/jewoo/ROS2_Jazzy_Study/install/my_demo_pkg/lib/my_demo_pkg
+[1.210s] 
+[1.210s] Installed /home/jewoo/ROS2_Jazzy_Study/build/my_demo_pkg
+[1.210s] running symlink_data
+[1.210s] symbolically linking /home/jewoo/ROS2_Jazzy_Study/build/my_demo_pkg/package.xml -> /home/jewoo/ROS2_Jazzy_Study/install/my_demo_pkg/share/my_demo_pkg
+[1.252s] Invoked command in '/home/jewoo/ROS2_Jazzy_Study/build/my_demo_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jewoo/ROS2_Jazzy_Study/build/my_demo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jewoo/ROS2_Jazzy_Study/install/my_demo_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jewoo/ROS2_Jazzy_Study/build/my_demo_pkg/build --no-deps symlink_data

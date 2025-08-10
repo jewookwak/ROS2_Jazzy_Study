@@ -1,0 +1,29 @@
+running develop
+running egg_info
+creating controller_tutorials.egg-info
+writing controller_tutorials.egg-info/PKG-INFO
+writing dependency_links to controller_tutorials.egg-info/dependency_links.txt
+writing entry points to controller_tutorials.egg-info/entry_points.txt
+writing requirements to controller_tutorials.egg-info/requires.txt
+writing top-level names to controller_tutorials.egg-info/top_level.txt
+writing manifest file 'controller_tutorials.egg-info/SOURCES.txt'
+reading manifest file 'controller_tutorials.egg-info/SOURCES.txt'
+writing manifest file 'controller_tutorials.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jewoo/ROS2_Jazzy_Study/install/controller_tutorials/lib/python3.12/site-packages/controller-tutorials.egg-link (link to .)
+Installing control_rotate script to /home/jewoo/ROS2_Jazzy_Study/install/controller_tutorials/lib/controller_tutorials
+Installing monitor_for_move_turtle script to /home/jewoo/ROS2_Jazzy_Study/install/controller_tutorials/lib/controller_tutorials
+Installing move_turtle script to /home/jewoo/ROS2_Jazzy_Study/install/controller_tutorials/lib/controller_tutorials
+Installing move_turtle_state_machine script to /home/jewoo/ROS2_Jazzy_Study/install/controller_tutorials/lib/controller_tutorials
+Installing pose_dual_controller script to /home/jewoo/ROS2_Jazzy_Study/install/controller_tutorials/lib/controller_tutorials
+Installing qmonitor_for_pose_dual_controller script to /home/jewoo/ROS2_Jazzy_Study/install/controller_tutorials/lib/controller_tutorials
+Installing qmonitor_state_machine script to /home/jewoo/ROS2_Jazzy_Study/install/controller_tutorials/lib/controller_tutorials
+Installing simple_rotate script to /home/jewoo/ROS2_Jazzy_Study/install/controller_tutorials/lib/controller_tutorials
+
+Installed /home/jewoo/ROS2_Jazzy_Study/build/controller_tutorials
+running symlink_data
+creating /home/jewoo/ROS2_Jazzy_Study/install/controller_tutorials/share/ament_index
+creating /home/jewoo/ROS2_Jazzy_Study/install/controller_tutorials/share/ament_index/resource_index
+creating /home/jewoo/ROS2_Jazzy_Study/install/controller_tutorials/share/ament_index/resource_index/packages
+symbolically linking /home/jewoo/ROS2_Jazzy_Study/build/controller_tutorials/resource/controller_tutorials -> /home/jewoo/ROS2_Jazzy_Study/install/controller_tutorials/share/ament_index/resource_index/packages
+symbolically linking /home/jewoo/ROS2_Jazzy_Study/build/controller_tutorials/package.xml -> /home/jewoo/ROS2_Jazzy_Study/install/controller_tutorials/share/controller_tutorials

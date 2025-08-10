@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg
+CMAKE_SOURCE_DIR = /home/jewoo/ROS2_Jazzy_Study/src/monitoring_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg
+CMAKE_BINARY_DIR = /home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg
 
 # Utility rule file for integrated_aruco_monitor_autogen.
 
@@ -71,9 +71,9 @@ CMakeFiles/integrated_aruco_monitor_autogen: integrated_aruco_monitor_autogen/ti
 integrated_aruco_monitor_autogen/timestamp: /usr/lib/qt5/bin/moc
 integrated_aruco_monitor_autogen/timestamp: /usr/lib/qt5/bin/uic
 integrated_aruco_monitor_autogen/timestamp: CMakeFiles/integrated_aruco_monitor_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target integrated_aruco_monitor"
-	/usr/bin/cmake -E cmake_autogen /home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg/CMakeFiles/integrated_aruco_monitor_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg/integrated_aruco_monitor_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target integrated_aruco_monitor"
+	/usr/bin/cmake -E cmake_autogen /home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg/CMakeFiles/integrated_aruco_monitor_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg/integrated_aruco_monitor_autogen/timestamp
 
 integrated_aruco_monitor_autogen: CMakeFiles/integrated_aruco_monitor_autogen
 integrated_aruco_monitor_autogen: integrated_aruco_monitor_autogen/timestamp
@@ -89,6 +89,6 @@ CMakeFiles/integrated_aruco_monitor_autogen.dir/clean:
 .PHONY : CMakeFiles/integrated_aruco_monitor_autogen.dir/clean
 
 CMakeFiles/integrated_aruco_monitor_autogen.dir/depend:
-	cd /home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg /home/addinnedu/ROS2_Jazzy_Study/src/monitoring_pkg /home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg /home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg /home/addinnedu/ROS2_Jazzy_Study/build/monitoring_pkg/CMakeFiles/integrated_aruco_monitor_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jewoo/ROS2_Jazzy_Study/src/monitoring_pkg /home/jewoo/ROS2_Jazzy_Study/src/monitoring_pkg /home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg /home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg /home/jewoo/ROS2_Jazzy_Study/build/monitoring_pkg/CMakeFiles/integrated_aruco_monitor_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/integrated_aruco_monitor_autogen.dir/depend
 
