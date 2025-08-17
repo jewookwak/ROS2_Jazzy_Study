@@ -1,3 +1,21 @@
+ROS2 Study using mobile robot
+1. PID Controller for waypoint tracking(controller_node)
+- P control
+- PID control
+2. Aruco Maker dectection code()
+- Affine Transformation
+3. MAPF(Multi Agent Path Finding)
+- A*
+- CBS Planner
+4. Domain Bridge
+- Talker Listener example
+- Server PC <-> AMR
+5. Local Planner(Collision Avoidance Control)
+- DWB control
+- RL control (DQN)
+
+
+
 #ROS_BRIDGE STUDY  
 방법 1 listener 쪽에서 토픽명 remapping<br/>
 <terminal1><br/>
