@@ -15,7 +15,7 @@ def normalize_angle(angle):
         angle += 2.0 * math.pi
     return angle
 
-class PIDController:
+class SimplePIDController:
     def __init__(self, kp=0.0, ki=0.0, kd=0.0, max_output=1.0, min_output=-1.0):
         self.kp = kp
         self.ki = ki
@@ -53,9 +53,9 @@ class PIDController:
         self.integral = 0.0
         self.prev_time = time.time()
 
-class RobotGoalController(Node):
+class SimpleRobotGoalController(Node):
     def __init__(self):
-        super().__init__('_robot_goal_controller')
+        super().__init__('simple_robot_goal_controller')
         
         # 로봇 ID 파라미터 추가 (실행 시 설정 가능)
         self.declare_parameter('robot_id', 3)  # 기본값 3
@@ -78,9 +78,9 @@ class RobotGoalController(Node):
         self.distance_tolerance = 0.05  # 미터
         
         # PID 컨트롤러 초기화
-        self.angular_pid = PIDController(
+        self.angular_pid = SimplePIDController(
             kp=1.0, ki=0.0, kd=0.1, max_output=2.0, min_output=-2.0)
-        self.linear_pid = PIDController(
+        self.linear_pid = SimplePIDController(
             kp=0.5, ki=0.0, kd=0.1, max_output=1.0, min_output=-1.0)
         
         # 파라미터 선언
@@ -92,7 +92,7 @@ class RobotGoalController(Node):
             self.declare_parameter('linear_ki', 0.0)
             self.declare_parameter('linear_kd', 0.1)
             self.declare_parameter('angle_tolerance', 0.1)
-            self.declare_parameter('distance_tolerance', 0.05)
+            self.declare_parameter('distance_tolerance', 0.02)
         except Exception as e:
             self.get_logger().warn(f"파라미터 선언 중 오류: {e}")
         
@@ -304,7 +304,7 @@ class RobotGoalController(Node):
 def main(args=None):
     rclpy.init(args=args)
     
-    node = RobotGoalController()
+    node = SimpleRobotGoalController()
     
     try:
         rclpy.spin(node)
