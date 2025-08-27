@@ -1,10 +1,9 @@
-**ROS2 Study using mobile robot**
+<img width="1167" height="646" alt="image" src="https://github.com/user-attachments/assets/0a65bff3-1cce-4e8c-93f3-8400f7bd0679" />**ROS2 Study using mobile robot**
 1. PID Controller for waypoint following(controller_node)
 - P control
 - PID control
 2. Aruco Marker dectection code()
-- Aruco Marker Localization 
-<img width="1167" height="646" alt="image" src="https://github.com/user-attachments/assets/fef88160-c7bb-49ca-b2f4-cba334ca128a" />
+- Aruco Marker Localization
 
 - Affine Transformation
 3. MAPF(Multi Agent Path Finding)
