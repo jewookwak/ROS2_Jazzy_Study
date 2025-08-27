@@ -1,4 +1,4 @@
-<img width="1167" height="646" alt="image" src="https://github.com/user-attachments/assets/0a65bff3-1cce-4e8c-93f3-8400f7bd0679" />**ROS2 Study using mobile robot**
+**ROS2 Study using mobile robot**
 1. PID Controller for waypoint following(controller_node)
 - P control
 - PID control
