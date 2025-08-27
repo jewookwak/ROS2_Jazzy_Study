@@ -2,7 +2,10 @@
 1. PID Controller for waypoint following(controller_node)
 - P control
 - PID control
-2. Aruco Maker dectection code()
+2. Aruco Marker dectection code()
+- Aruco Marker Localization 
+<img width="1167" height="646" alt="image" src="https://github.com/user-attachments/assets/fef88160-c7bb-49ca-b2f4-cba334ca128a" />
+
 - Affine Transformation
 3. MAPF(Multi Agent Path Finding)
 - A*
