@@ -1,5 +1,5 @@
 **ROS2 Study using mobile robot**
-1. PID Controller for waypoint tracking(controller_node)
+1. PID Controller for waypoint following(controller_node)
 - P control
 - PID control
 2. Aruco Maker dectection code()
